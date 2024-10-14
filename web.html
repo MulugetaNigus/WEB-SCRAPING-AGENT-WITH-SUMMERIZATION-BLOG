@@ -1,0 +1,4568 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>
+      
+    </title>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="FotaWP &raquo; Feed"
+      href="https://wp-themes.com/fotawp/?feed=rss2"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="FotaWP &raquo; Comments Feed"
+      href="https://wp-themes.com/fotawp/?feed=comments-rss2"
+    />
+    <script>
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/wp-themes.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6-alpha-57835",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+    </script>
+    <style id="wp-block-site-logo-inline-css">
+      .wp-block-site-logo {
+        box-sizing: border-box;
+        line-height: 0;
+      }
+      .wp-block-site-logo a {
+        display: inline-block;
+        line-height: 0;
+      }
+      .wp-block-site-logo.is-default-size img {
+        height: auto;
+        width: 120px;
+      }
+      .wp-block-site-logo img {
+        height: auto;
+        max-width: 100%;
+      }
+      .wp-block-site-logo a,
+      .wp-block-site-logo img {
+        border-radius: inherit;
+      }
+      .wp-block-site-logo.aligncenter {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+      .wp-block-site-logo.is-style-rounded {
+        border-radius: 9999px;
+      }
+    </style>
+    <style id="wp-block-site-title-inline-css">
+      .wp-block-site-title a {
+        color: inherit;
+      }
+    </style>
+    <style id="wp-block-group-inline-css">
+      .wp-block-group {
+        box-sizing: border-box;
+      }
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="wp-block-group-theme-inline-css">
+      :where(.wp-block-group.has-background) {
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="wp-block-page-list-inline-css">
+      .wp-block-navigation .wp-block-page-list {
+        align-items: var(--navigation-layout-align, initial);
+        background-color: inherit;
+        display: flex;
+        flex-direction: var(--navigation-layout-direction, initial);
+        flex-wrap: var(--navigation-layout-wrap, wrap);
+        justify-content: var(--navigation-layout-justify, initial);
+      }
+      .wp-block-navigation .wp-block-navigation-item {
+        background-color: inherit;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-navigation-css"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=17.9.0"
+      media="all"
+    />
+    <style id="wp-block-search-inline-css">
+      .wp-block-search__button {
+        margin-left: 10px;
+        word-break: normal;
+      }
+      .wp-block-search__button.has-icon {
+        line-height: 0;
+      }
+      .wp-block-search__button svg {
+        fill: currentColor;
+        height: 1.25em;
+        min-height: 24px;
+        min-width: 24px;
+        vertical-align: text-bottom;
+        width: 1.25em;
+      }
+      :where(.wp-block-search__button) {
+        border: 1px solid #ccc;
+        padding: 6px 10px;
+      }
+      .wp-block-search__inside-wrapper {
+        display: flex;
+        flex: auto;
+        flex-wrap: nowrap;
+        max-width: 100%;
+      }
+      .wp-block-search__label {
+        width: 100%;
+      }
+      .wp-block-search__input {
+        -webkit-appearance: initial;
+        appearance: none;
+        border: 1px solid #949494;
+        flex-grow: 1;
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 3rem;
+        padding: 8px;
+        text-decoration: unset !important;
+      }
+      .wp-block-search.wp-block-search__button-only .wp-block-search__button {
+        flex-shrink: 0;
+        margin-left: 0;
+        max-width: 100%;
+      }
+      .wp-block-search.wp-block-search__button-only
+        .wp-block-search__button[aria-expanded="true"] {
+        max-width: calc(100% - 100px);
+      }
+      .wp-block-search.wp-block-search__button-only
+        .wp-block-search__inside-wrapper {
+        min-width: 0 !important;
+        transition-property: width;
+      }
+      .wp-block-search.wp-block-search__button-only .wp-block-search__input {
+        flex-basis: 100%;
+        transition-duration: 0.3s;
+      }
+      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden,
+      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden
+        .wp-block-search__inside-wrapper {
+        overflow: hidden;
+      }
+      .wp-block-search.wp-block-search__button-only.wp-block-search__searchfield-hidden
+        .wp-block-search__input {
+        border-left-width: 0 !important;
+        border-right-width: 0 !important;
+        flex-basis: 0;
+        flex-grow: 0;
+        margin: 0;
+        min-width: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 0 !important;
+      }
+      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) {
+        border: 1px solid #949494;
+        box-sizing: border-box;
+        padding: 4px;
+      }
+      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
+        .wp-block-search__input {
+        border: none;
+        border-radius: 0;
+        padding: 0 4px;
+      }
+      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
+        .wp-block-search__input:focus {
+        outline: none;
+      }
+      :where(.wp-block-search__button-inside .wp-block-search__inside-wrapper)
+        :where(.wp-block-search__button) {
+        padding: 4px 8px;
+      }
+      .wp-block-search.aligncenter .wp-block-search__inside-wrapper {
+        margin: auto;
+      }
+      .wp-block[data-align="right"]
+        .wp-block-search.wp-block-search__button-only
+        .wp-block-search__inside-wrapper {
+        float: right;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+    </style>
+    <style id="wp-block-search-theme-inline-css">
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-search__button {
+        border: 1px solid #ccc;
+        padding: 0.375em 0.625em;
+      }
+    </style>
+    <style id="wp-block-spacer-inline-css">
+      .wp-block-spacer {
+        clear: both;
+      }
+    </style>
+    <style id="wp-block-heading-inline-css">
+      h1.has-background,
+      h2.has-background,
+      h3.has-background,
+      h4.has-background,
+      h5.has-background,
+      h6.has-background {
+        padding: 1.25em 2.375em;
+      }
+      h1.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h1.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ),
+      h2.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h2.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ),
+      h3.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h3.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ),
+      h4.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h4.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ),
+      h5.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h5.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ),
+      h6.has-text-align-left[style*="writing-mode"]:where(
+          [style*="vertical-lr"]
+        ),
+      h6.has-text-align-right[style*="writing-mode"]:where(
+          [style*="vertical-rl"]
+        ) {
+        rotate: 180deg;
+      }
+    </style>
+    <style id="wp-block-paragraph-inline-css">
+      .is-small-text {
+        font-size: 0.875em;
+      }
+      .is-regular-text {
+        font-size: 1em;
+      }
+      .is-large-text {
+        font-size: 2.25em;
+      }
+      .is-larger-text {
+        font-size: 3em;
+      }
+      .has-drop-cap:not(:focus):first-letter {
+        float: left;
+        font-size: 8.4em;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 0.68;
+        margin: 0.05em 0.1em 0 0;
+        text-transform: uppercase;
+      }
+      body.rtl .has-drop-cap:not(:focus):first-letter {
+        float: none;
+        margin-left: 0.1em;
+      }
+      p.has-drop-cap.has-background {
+        overflow: hidden;
+      }
+      p.has-background {
+        padding: 1.25em 2.375em;
+      }
+      :where(p.has-text-color:not(.has-link-color)) a {
+        color: inherit;
+      }
+      p.has-text-align-left[style*="writing-mode:vertical-lr"],
+      p.has-text-align-right[style*="writing-mode:vertical-rl"] {
+        rotate: 180deg;
+      }
+    </style>
+    <style id="wp-block-button-inline-css">
+      .wp-block-button__link {
+        box-sizing: border-box;
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        word-break: break-word;
+      }
+      .wp-block-button__link.aligncenter {
+        text-align: center;
+      }
+      .wp-block-button__link.alignright {
+        text-align: right;
+      }
+      :where(.wp-block-button__link) {
+        border-radius: 9999px;
+        box-shadow: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-decoration: none;
+      }
+      .wp-block-button[style*="text-decoration"] .wp-block-button__link {
+        text-decoration: inherit;
+      }
+      .wp-block-buttons > .wp-block-button.has-custom-width {
+        max-width: none;
+      }
+      .wp-block-buttons
+        > .wp-block-button.has-custom-width
+        .wp-block-button__link {
+        width: 100%;
+      }
+      .wp-block-buttons
+        > .wp-block-button.has-custom-font-size
+        .wp-block-button__link {
+        font-size: inherit;
+      }
+      .wp-block-buttons > .wp-block-button.wp-block-button__width-25 {
+        width: calc(25% - var(--wp--style--block-gap, 0.5em) * 0.75);
+      }
+      .wp-block-buttons > .wp-block-button.wp-block-button__width-50 {
+        width: calc(50% - var(--wp--style--block-gap, 0.5em) * 0.5);
+      }
+      .wp-block-buttons > .wp-block-button.wp-block-button__width-75 {
+        width: calc(75% - var(--wp--style--block-gap, 0.5em) * 0.25);
+      }
+      .wp-block-buttons > .wp-block-button.wp-block-button__width-100 {
+        flex-basis: 100%;
+        width: 100%;
+      }
+      .wp-block-buttons.is-vertical
+        > .wp-block-button.wp-block-button__width-25 {
+        width: 25%;
+      }
+      .wp-block-buttons.is-vertical
+        > .wp-block-button.wp-block-button__width-50 {
+        width: 50%;
+      }
+      .wp-block-buttons.is-vertical
+        > .wp-block-button.wp-block-button__width-75 {
+        width: 75%;
+      }
+      .wp-block-button.is-style-squared,
+      .wp-block-button__link.wp-block-button.is-style-squared {
+        border-radius: 0;
+      }
+      .wp-block-button.no-border-radius,
+      .wp-block-button__link.no-border-radius {
+        border-radius: 0 !important;
+      }
+      .wp-block-button .wp-block-button__link:where(.is-style-outline),
+      .wp-block-button:where(.is-style-outline) > .wp-block-button__link {
+        border: 2px solid;
+        padding: 0.667em 1.333em;
+      }
+      .wp-block-button
+        .wp-block-button__link:where(.is-style-outline):not(.has-text-color),
+      .wp-block-button:where(.is-style-outline)
+        > .wp-block-button__link:not(.has-text-color) {
+        color: currentColor;
+      }
+      .wp-block-button
+        .wp-block-button__link:where(.is-style-outline):not(.has-background),
+      .wp-block-button:where(.is-style-outline)
+        > .wp-block-button__link:not(.has-background) {
+        background-color: initial;
+        background-image: none;
+      }
+      .wp-block-button .wp-block-button__link:where(.has-border-color) {
+        border-width: initial;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-top-color"]) {
+        border-top-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-right-color"]) {
+        border-right-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-bottom-color"]) {
+        border-bottom-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-left-color"]) {
+        border-left-width: medium;
+      }
+      .wp-block-button .wp-block-button__link:where([style*="border-style"]) {
+        border-width: initial;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-top-style"]) {
+        border-top-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-right-style"]) {
+        border-right-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-bottom-style"]) {
+        border-bottom-width: medium;
+      }
+      .wp-block-button
+        .wp-block-button__link:where([style*="border-left-style"]) {
+        border-left-width: medium;
+      }
+    </style>
+    <style id="wp-block-buttons-inline-css">
+      .wp-block-buttons.is-vertical {
+        flex-direction: column;
+      }
+      .wp-block-buttons.is-vertical > .wp-block-button:last-child {
+        margin-bottom: 0;
+      }
+      .wp-block-buttons > .wp-block-button {
+        display: inline-block;
+        margin: 0;
+      }
+      .wp-block-buttons.is-content-justification-left {
+        justify-content: flex-start;
+      }
+      .wp-block-buttons.is-content-justification-left.is-vertical {
+        align-items: flex-start;
+      }
+      .wp-block-buttons.is-content-justification-center {
+        justify-content: center;
+      }
+      .wp-block-buttons.is-content-justification-center.is-vertical {
+        align-items: center;
+      }
+      .wp-block-buttons.is-content-justification-right {
+        justify-content: flex-end;
+      }
+      .wp-block-buttons.is-content-justification-right.is-vertical {
+        align-items: flex-end;
+      }
+      .wp-block-buttons.is-content-justification-space-between {
+        justify-content: space-between;
+      }
+      .wp-block-buttons.aligncenter {
+        text-align: center;
+      }
+      .wp-block-buttons:not(
+          .is-content-justification-space-between,
+          .is-content-justification-right,
+          .is-content-justification-left,
+          .is-content-justification-center
+        )
+        .wp-block-button.aligncenter {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
+      .wp-block-buttons[style*="text-decoration"] .wp-block-button,
+      .wp-block-buttons[style*="text-decoration"] .wp-block-button__link {
+        text-decoration: inherit;
+      }
+      .wp-block-buttons.has-custom-font-size .wp-block-button__link {
+        font-size: inherit;
+      }
+      .wp-block-button.aligncenter {
+        text-align: center;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-image-css"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/image/style.css?ver=17.9.0"
+      media="all"
+    />
+    <style id="wp-block-image-inline-css">
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-image figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+    </style>
+    <style id="wp-block-image-theme-inline-css">
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-image figcaption {
+        color: #ffffffa6;
+      }
+      .wp-block-image {
+        margin: 0 0 1em;
+      }
+    </style>
+    <style id="wp-block-columns-inline-css">
+      .wp-block-columns {
+        align-items: normal !important;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap !important;
+      }
+      @media (min-width: 782px) {
+        .wp-block-columns {
+          flex-wrap: nowrap !important;
+        }
+      }
+      .wp-block-columns.are-vertically-aligned-top {
+        align-items: flex-start;
+      }
+      .wp-block-columns.are-vertically-aligned-center {
+        align-items: center;
+      }
+      .wp-block-columns.are-vertically-aligned-bottom {
+        align-items: flex-end;
+      }
+      @media (max-width: 781px) {
+        .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+          flex-basis: 100% !important;
+        }
+      }
+      @media (min-width: 782px) {
+        .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+          flex-basis: 0;
+          flex-grow: 1;
+        }
+        .wp-block-columns:not(.is-not-stacked-on-mobile)
+          > .wp-block-column[style*="flex-basis"] {
+          flex-grow: 0;
+        }
+      }
+      .wp-block-columns.is-not-stacked-on-mobile {
+        flex-wrap: nowrap !important;
+      }
+      .wp-block-columns.is-not-stacked-on-mobile > .wp-block-column {
+        flex-basis: 0;
+        flex-grow: 1;
+      }
+      .wp-block-columns.is-not-stacked-on-mobile
+        > .wp-block-column[style*="flex-basis"] {
+        flex-grow: 0;
+      }
+      :where(.wp-block-columns) {
+        margin-bottom: 1.75em;
+      }
+      :where(.wp-block-columns.has-background) {
+        padding: 1.25em 2.375em;
+      }
+      .wp-block-column {
+        flex-grow: 1;
+        min-width: 0;
+        overflow-wrap: break-word;
+        word-break: break-word;
+      }
+      .wp-block-column.is-vertically-aligned-top {
+        align-self: flex-start;
+      }
+      .wp-block-column.is-vertically-aligned-center {
+        align-self: center;
+      }
+      .wp-block-column.is-vertically-aligned-bottom {
+        align-self: flex-end;
+      }
+      .wp-block-column.is-vertically-aligned-stretch {
+        align-self: stretch;
+      }
+      .wp-block-column.is-vertically-aligned-bottom,
+      .wp-block-column.is-vertically-aligned-center,
+      .wp-block-column.is-vertically-aligned-top {
+        width: 100%;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-cover-css"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/cover/style.css?ver=17.9.0"
+      media="all"
+    />
+    <style id="wp-block-template-part-theme-inline-css">
+      .wp-block-template-part.has-background {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-gallery-css"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/gallery/style.css?ver=17.9.0"
+      media="all"
+    />
+    <style id="wp-block-gallery-inline-css">
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6;
+      }
+    </style>
+    <style id="wp-block-gallery-theme-inline-css">
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: #ffffffa6;
+      }
+    </style>
+    <style id="wp-block-post-featured-image-inline-css">
+      .wp-block-post-featured-image {
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .wp-block-post-featured-image a {
+        display: block;
+        height: 100%;
+      }
+      .wp-block-post-featured-image img {
+        box-sizing: border-box;
+        height: auto;
+        max-width: 100%;
+        vertical-align: bottom;
+        width: 100%;
+      }
+      .wp-block-post-featured-image.alignfull img,
+      .wp-block-post-featured-image.alignwide img {
+        width: 100%;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim {
+        background-color: #000;
+        inset: 0;
+        position: absolute;
+      }
+      .wp-block-post-featured-image {
+        position: relative;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-gradient {
+        background-color: initial;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-0 {
+        opacity: 0;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-10 {
+        opacity: 0.1;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-20 {
+        opacity: 0.2;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-30 {
+        opacity: 0.3;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-40 {
+        opacity: 0.4;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-50 {
+        opacity: 0.5;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-60 {
+        opacity: 0.6;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-70 {
+        opacity: 0.7;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-80 {
+        opacity: 0.8;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-90 {
+        opacity: 0.9;
+      }
+      .wp-block-post-featured-image
+        .wp-block-post-featured-image__overlay.has-background-dim-100 {
+        opacity: 1;
+      }
+      .wp-block-post-featured-image:where(.alignleft, .alignright) {
+        width: 100%;
+      }
+    </style>
+    <style id="wp-block-post-date-inline-css">
+      .wp-block-post-date {
+        box-sizing: border-box;
+      }
+    </style>
+    <style id="wp-block-post-title-inline-css">
+      .wp-block-post-title {
+        box-sizing: border-box;
+        word-break: break-word;
+      }
+      .wp-block-post-title a {
+        display: inline-block;
+      }
+    </style>
+    <style id="wp-block-post-template-inline-css">
+      .wp-block-post-template {
+        list-style: none;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 100%;
+        padding: 0;
+      }
+      .wp-block-post-template.wp-block-post-template {
+        background: none;
+      }
+      .wp-block-post-template.is-flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 1.25em;
+      }
+      .wp-block-post-template.is-flex-container > li {
+        margin: 0;
+        width: 100%;
+      }
+      @media (min-width: 600px) {
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-2
+          > li {
+          width: calc(50% - 0.625em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-3
+          > li {
+          width: calc(33.33333% - 0.83333em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-4
+          > li {
+          width: calc(25% - 0.9375em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-5
+          > li {
+          width: calc(20% - 1em);
+        }
+        .wp-block-post-template.is-flex-container.is-flex-container.columns-6
+          > li {
+          width: calc(16.66667% - 1.04167em);
+        }
+      }
+      @media (max-width: 600px) {
+        .wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid.wp-block-post-template-is-layout-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .wp-block-post-template-is-layout-constrained > li > .alignright,
+      .wp-block-post-template-is-layout-flow > li > .alignright {
+        float: right;
+        margin-inline-end: 0;
+        margin-inline-start: 2em;
+      }
+      .wp-block-post-template-is-layout-constrained > li > .alignleft,
+      .wp-block-post-template-is-layout-flow > li > .alignleft {
+        float: left;
+        margin-inline-end: 2em;
+        margin-inline-start: 0;
+      }
+      .wp-block-post-template-is-layout-constrained > li > .aligncenter,
+      .wp-block-post-template-is-layout-flow > li > .aligncenter {
+        margin-inline-end: auto;
+        margin-inline-start: auto;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="wp-block-social-links-css"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/block-library/blocks/social-links/style.css?ver=17.9.0"
+      media="all"
+    />
+    <style id="wp-block-list-inline-css">
+      ol,
+      ul {
+        box-sizing: border-box;
+      }
+      ol.has-background,
+      ul.has-background {
+        padding: 1.25em 2.375em;
+      }
+    </style>
+    <style id="wp-emoji-styles-inline-css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="wp-block-library-inline-css">
+      :root {
+        --wp-admin-theme-color: #007cba;
+        --wp-admin-theme-color--rgb: 0, 124, 186;
+        --wp-admin-theme-color-darker-10: #006ba1;
+        --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
+        --wp-admin-theme-color-darker-20: #005a87;
+        --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+        --wp-admin-border-width-focus: 2px;
+        --wp-block-synced-color: #7a00df;
+        --wp-block-synced-color--rgb: 122, 0, 223;
+        --wp-bound-block-color: #9747ff;
+      }
+      @media (min-resolution: 192dpi) {
+        :root {
+          --wp-admin-border-width-focus: 1.5px;
+        }
+      }
+      .wp-element-button {
+        cursor: pointer;
+      }
+      :root {
+        --wp--preset--font-size--normal: 16px;
+        --wp--preset--font-size--huge: 42px;
+      }
+      :root .has-very-light-gray-background-color {
+        background-color: #eee;
+      }
+      :root .has-very-dark-gray-background-color {
+        background-color: #313131;
+      }
+      :root .has-very-light-gray-color {
+        color: #eee;
+      }
+      :root .has-very-dark-gray-color {
+        color: #313131;
+      }
+      :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+        background: linear-gradient(135deg, #00d084, #0693e3);
+      }
+      :root .has-purple-crush-gradient-background {
+        background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe);
+      }
+      :root .has-hazy-dawn-gradient-background {
+        background: linear-gradient(135deg, #faaca8, #dad0ec);
+      }
+      :root .has-subdued-olive-gradient-background {
+        background: linear-gradient(135deg, #fafae1, #67a671);
+      }
+      :root .has-atomic-cream-gradient-background {
+        background: linear-gradient(135deg, #fdd79a, #004a59);
+      }
+      :root .has-nightshade-gradient-background {
+        background: linear-gradient(135deg, #330968, #31cdcf);
+      }
+      :root .has-midnight-gradient-background {
+        background: linear-gradient(135deg, #020381, #2874fc);
+      }
+      .has-regular-font-size {
+        font-size: 1em;
+      }
+      .has-larger-font-size {
+        font-size: 2.625em;
+      }
+      .has-normal-font-size {
+        font-size: var(--wp--preset--font-size--normal);
+      }
+      .has-huge-font-size {
+        font-size: var(--wp--preset--font-size--huge);
+      }
+      .has-text-align-center {
+        text-align: center;
+      }
+      .has-text-align-left {
+        text-align: left;
+      }
+      .has-text-align-right {
+        text-align: right;
+      }
+      #end-resizable-editor-section {
+        display: none;
+      }
+      .aligncenter {
+        clear: both;
+      }
+      .items-justified-left {
+        justify-content: flex-start;
+      }
+      .items-justified-center {
+        justify-content: center;
+      }
+      .items-justified-right {
+        justify-content: flex-end;
+      }
+      .items-justified-space-between {
+        justify-content: space-between;
+      }
+      .screen-reader-text {
+        clip: rect(1px, 1px, 1px, 1px);
+        word-wrap: normal !important;
+        border: 0;
+        -webkit-clip-path: inset(50%);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      .screen-reader-text:focus {
+        clip: auto !important;
+        background-color: #ddd;
+        -webkit-clip-path: none;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+      }
+      html :where(.has-border-color) {
+        border-style: solid;
+      }
+      html :where([style*="border-top-color"]) {
+        border-top-style: solid;
+      }
+      html :where([style*="border-right-color"]) {
+        border-right-style: solid;
+      }
+      html :where([style*="border-bottom-color"]) {
+        border-bottom-style: solid;
+      }
+      html :where([style*="border-left-color"]) {
+        border-left-style: solid;
+      }
+      html :where([style*="border-width"]) {
+        border-style: solid;
+      }
+      html :where([style*="border-top-width"]) {
+        border-top-style: solid;
+      }
+      html :where([style*="border-right-width"]) {
+        border-right-style: solid;
+      }
+      html :where([style*="border-bottom-width"]) {
+        border-bottom-style: solid;
+      }
+      html :where([style*="border-left-width"]) {
+        border-left-style: solid;
+      }
+      html :where(img[class*="wp-image-"]) {
+        height: auto;
+        max-width: 100%;
+      }
+      :where(figure) {
+        margin: 0 0 1em;
+      }
+      html :where(.is-position-sticky) {
+        --wp-admin--admin-bar--position-offset: var(
+          --wp-admin--admin-bar--height,
+          0px
+        );
+      }
+      @media screen and (max-width: 600px) {
+        html :where(.is-position-sticky) {
+          --wp-admin--admin-bar--position-offset: 0px;
+        }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="fotawp-blocks-style-css"
+      href="https://wp-themes.com/wp-content/themes/fotawp/assets/css/blocks.css?ver=6.6-alpha-57835"
+      media="all"
+    />
+    <style id="wp-block-template-skip-link-inline-css">
+      .skip-link.screen-reader-text {
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute !important;
+        width: 1px;
+        word-wrap: normal !important;
+      }
+
+      .skip-link.screen-reader-text:focus {
+        background-color: #eee;
+        clip: auto !important;
+        clip-path: none;
+        color: #444;
+        display: block;
+        font-size: 1em;
+        height: auto;
+        left: 5px;
+        line-height: normal;
+        padding: 15px 23px 14px;
+        text-decoration: none;
+        top: 5px;
+        width: auto;
+        z-index: 100000;
+      }
+    </style>
+    <style id="global-styles-inline-css">
+      body {
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--color--primary: #23058a;
+        --wp--preset--color--secondary: #fb9e2d;
+        --wp--preset--color--tertiary: #f29fff;
+        --wp--preset--color--tertiary-light: #efeaf7;
+        --wp--preset--color--accent: #966bf1;
+        --wp--preset--color--accent-lite: #bf76d5;
+        --wp--preset--color--background-alt: #fbf9fe;
+        --wp--preset--color--foreground: #747474;
+        --wp--preset--color--background: #ffffff;
+        --wp--preset--color--heading-color: #25133f;
+        --wp--preset--color--sub-heading-color: #515151;
+        --wp--preset--color--foregound-alt: #fefefe;
+        --wp--preset--color--border-color: #f9f4ff;
+        --wp--preset--color--transparent: #ffffff00;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--gradient--first-primary-gradient: linear-gradient(
+          320deg,
+          var(--wp--preset--color--tertiary) 30%,
+          var(--wp--preset--color--primary) 70%
+        );
+        --wp--preset--gradient--second-primary-gradient: linear-gradient(
+          90deg,
+          var(--wp--preset--color--tertiary) -50%,
+          var(--wp--preset--color--primary) 100%
+        );
+        --wp--preset--gradient--third-primary-gradient: linear-gradient(
+          290deg,
+          var(--wp--preset--color--accent-lite) 0%,
+          var(--wp--preset--color--accent) 60%,
+          var(--wp--preset--color--primary) 120%
+        );
+        --wp--preset--gradient--fourth-primary-gradient: linear-gradient(
+          135deg,
+          var(--wp--preset--color--primary) 45%,
+          var(--wp--preset--color--accent-lite) 100%
+        );
+        --wp--preset--font-size--small: 16px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 24px;
+        --wp--preset--font-size--x-large: 34px;
+        --wp--preset--font-size--xx-small: 12px;
+        --wp--preset--font-size--x-small: 14px;
+        --wp--preset--font-size--xx-large: 44px;
+        --wp--preset--font-size--xxx-large: 56px;
+        --wp--preset--font-size--xxxx-large: 74px;
+        --wp--preset--font-family--league-spartan: "League Spartan", sans-serif;
+        --wp--preset--font-family--body: "Lato", sans-serif;
+        --wp--preset--font-family--dm-sans: "DM Sans", sans-serif;
+        --wp--preset--font-family--inter: "Inter", sans-serif;
+        --wp--preset--font-family--albert-sans: "Albert Sans", sans-serif;
+        --wp--preset--font-family--hanken-grotesk: "Hanken Grotesk", sans-serif;
+        --wp--preset--font-family--playfair-display: "Playfair Display",
+          sans-serif;
+        --wp--preset--font-family--outfit: "Outfit", sans-serif;
+        --wp--preset--font-family--quicksand: "Quicksand", sans-serif;
+        --wp--preset--font-family--oswald: "Oswald", sans-serif;
+        --wp--preset--font-family--nunito: "Nunito", sans-serif;
+        --wp--preset--font-family--montserrat: "Montserrat", sans-serif;
+        --wp--preset--font-family--plus-jakarta-sans: "Plus Jakarta Sans",
+          sans-serif;
+        --wp--preset--font-family--space-grotesk: "Space Grotesk", sans-serif;
+        --wp--preset--font-family--open-sans: "Open Sans", sans-serif;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        --wp--custom--font-weight--black: 900;
+        --wp--custom--font-weight--extra-bold: 800;
+        --wp--custom--font-weight--bold: 700;
+        --wp--custom--font-weight--semi-bold: 600;
+        --wp--custom--font-weight--medium: 500;
+        --wp--custom--font-weight--regular: 400;
+        --wp--custom--font-weight--light: 300;
+        --wp--custom--font-weight--extra-light: 200;
+        --wp--custom--font-weight--thin: 100;
+        --wp--custom--line-height--initial: 1;
+        --wp--custom--line-height--xx-small: 1.2;
+        --wp--custom--line-height--x-small: 1.3;
+        --wp--custom--line-height--small: 1.4;
+        --wp--custom--line-height--medium: 1.45;
+        --wp--custom--line-height--large: 1.6;
+        --wp--custom--border-radius--xx-small: 2px;
+        --wp--custom--border-radius--x-small: 4px;
+        --wp--custom--border-radius--small: 6px;
+        --wp--custom--border-radius--medium: 10px;
+        --wp--custom--border-radius--large: 30px;
+        --wp--custom--border-radius--x-large: 50px;
+        --wp--custom--border-radius--xx-large: 99px;
+        --wp--custom--border-radius--full: 999px;
+      }
+      body {
+        margin: 0;
+        --wp--style--global--content-size: 100%;
+        --wp--style--global--wide-size: 100%;
+      }
+      .wp-site-blocks > .alignleft {
+        float: left;
+        margin-right: 2em;
+      }
+      .wp-site-blocks > .alignright {
+        float: right;
+        margin-left: 2em;
+      }
+      .wp-site-blocks > .aligncenter {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      :where(.wp-site-blocks) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :where(.wp-site-blocks) > :first-child:first-child {
+        margin-block-start: 0;
+      }
+      :where(.wp-site-blocks) > :last-child:last-child {
+        margin-block-end: 0;
+      }
+      body {
+        --wp--style--block-gap: 24px;
+      }
+      :where(body .is-layout-flow) > :first-child:first-child {
+        margin-block-start: 0;
+      }
+      :where(body .is-layout-flow) > :last-child:last-child {
+        margin-block-end: 0;
+      }
+      :where(body .is-layout-flow) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :where(body .is-layout-constrained) > :first-child:first-child {
+        margin-block-start: 0;
+      }
+      :where(body .is-layout-constrained) > :last-child:last-child {
+        margin-block-end: 0;
+      }
+      :where(body .is-layout-constrained) > * {
+        margin-block-start: 24px;
+        margin-block-end: 0;
+      }
+      :where(body .is-layout-flex) {
+        gap: 24px;
+      }
+      :where(body .is-layout-grid) {
+        gap: 24px;
+      }
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+      body {
+        background-color: var(--wp--preset--color--background);
+        color: var(--wp--preset--color--foreground);
+        font-family: var(--wp--preset--font-family--body);
+        font-size: var(--wp-preset--font-size--small);
+        line-height: 1.5;
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+      }
+      a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--primary);
+        text-decoration: none;
+      }
+      a:where(:not(.wp-element-button)):hover {
+        color: var(--wp--preset--color--secondary);
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        background-color: var(--wp--preset--color--transparent);
+        color: var(--wp--preset--color--heading-color);
+        font-family: var(--wp--preset--font-family--plus-jakarta-sans);
+        font-style: normal;
+        font-weight: var(--wp--preset--font-weight--semi-bold);
+        line-height: var(--wp--preset--line-height--xxSmall);
+      }
+      h1 {
+        font-size: var(--wp--preset--font-size--xxx-large);
+        font-weight: 600;
+        line-height: var(--wp--preset--line-height--initial);
+        margin-bottom: var(--wp--preset--spacing--small);
+      }
+      h2 {
+        font-size: var(--wp--preset--font-size--xx-large);
+        font-weight: 600;
+        line-height: var(--wp--preset--line-height--xx-small);
+        margin-top: var(--wp--preset--spacing--medium);
+        margin-bottom: var(--wp--preset--spacing--x-small);
+      }
+      h3 {
+        font-size: var(--wp--preset--font-size--x-large);
+        font-weight: 600;
+        line-height: var(--wp--preset--line-height--x-small);
+        margin-top: var(--wp--preset--spacing--medium);
+        margin-bottom: var(--wp--preset--spacing--x-small);
+      }
+      h4 {
+        font-size: var(--wp--preset--font-size--large);
+        font-weight: 500;
+        line-height: var(--wp--preset--line-height--x-small);
+        margin-top: var(--wp--preset--spacing--small);
+        margin-bottom: var(--wp--preset--spacing--xx-small);
+      }
+      h5 {
+        font-size: var(--wp--preset--font-size--medium);
+        font-weight: 500;
+        line-height: var(--wp--preset--line-height--medium);
+        margin-top: var(--wp--preset--spacing--small);
+        margin-bottom: var(--wp--preset--spacing--xx-small);
+      }
+      h6 {
+        font-size: var(--wp--preset--font-size--small);
+        margin-top: var(--wp--preset--spacing--x-small);
+        margin-bottom: var(--wp--preset--spacing--xx-small);
+      }
+      .wp-element-button,
+      .wp-block-button__link {
+        background-color: var(--wp--preset--color--primary);
+        border-radius: 0.375em;
+        border-color: var(--wp--preset--color--tertiary);
+        border-width: 0;
+        color: var(--wp--preset--color--background);
+        font-family: inherit;
+        font-size: var(--wp--preset--font-size--small);
+        font-weight: var(--wp--preset--font-weight--medium);
+        line-height: var(--wp--preset--line-height--initial);
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        text-decoration: none;
+      }
+      .wp-element-button:hover,
+      .wp-block-button__link:hover {
+        background-color: var(--wp--preset--color--secondary);
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-primary-color {
+        color: var(--wp--preset--color--primary) !important;
+      }
+      .has-secondary-color {
+        color: var(--wp--preset--color--secondary) !important;
+      }
+      .has-tertiary-color {
+        color: var(--wp--preset--color--tertiary) !important;
+      }
+      .has-tertiary-light-color {
+        color: var(--wp--preset--color--tertiary-light) !important;
+      }
+      .has-accent-color {
+        color: var(--wp--preset--color--accent) !important;
+      }
+      .has-accent-lite-color {
+        color: var(--wp--preset--color--accent-lite) !important;
+      }
+      .has-background-alt-color {
+        color: var(--wp--preset--color--background-alt) !important;
+      }
+      .has-foreground-color {
+        color: var(--wp--preset--color--foreground) !important;
+      }
+      .has-background-color {
+        color: var(--wp--preset--color--background) !important;
+      }
+      .has-heading-color-color {
+        color: var(--wp--preset--color--heading-color) !important;
+      }
+      .has-sub-heading-color-color {
+        color: var(--wp--preset--color--sub-heading-color) !important;
+      }
+      .has-foregound-alt-color {
+        color: var(--wp--preset--color--foregound-alt) !important;
+      }
+      .has-border-color-color {
+        color: var(--wp--preset--color--border-color) !important;
+      }
+      .has-transparent-color {
+        color: var(--wp--preset--color--transparent) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-primary-background-color {
+        background-color: var(--wp--preset--color--primary) !important;
+      }
+      .has-secondary-background-color {
+        background-color: var(--wp--preset--color--secondary) !important;
+      }
+      .has-tertiary-background-color {
+        background-color: var(--wp--preset--color--tertiary) !important;
+      }
+      .has-tertiary-light-background-color {
+        background-color: var(--wp--preset--color--tertiary-light) !important;
+      }
+      .has-accent-background-color {
+        background-color: var(--wp--preset--color--accent) !important;
+      }
+      .has-accent-lite-background-color {
+        background-color: var(--wp--preset--color--accent-lite) !important;
+      }
+      .has-background-alt-background-color {
+        background-color: var(--wp--preset--color--background-alt) !important;
+      }
+      .has-foreground-background-color {
+        background-color: var(--wp--preset--color--foreground) !important;
+      }
+      .has-background-background-color {
+        background-color: var(--wp--preset--color--background) !important;
+      }
+      .has-heading-color-background-color {
+        background-color: var(--wp--preset--color--heading-color) !important;
+      }
+      .has-sub-heading-color-background-color {
+        background-color: var(
+          --wp--preset--color--sub-heading-color
+        ) !important;
+      }
+      .has-foregound-alt-background-color {
+        background-color: var(--wp--preset--color--foregound-alt) !important;
+      }
+      .has-border-color-background-color {
+        background-color: var(--wp--preset--color--border-color) !important;
+      }
+      .has-transparent-background-color {
+        background-color: var(--wp--preset--color--transparent) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-primary-border-color {
+        border-color: var(--wp--preset--color--primary) !important;
+      }
+      .has-secondary-border-color {
+        border-color: var(--wp--preset--color--secondary) !important;
+      }
+      .has-tertiary-border-color {
+        border-color: var(--wp--preset--color--tertiary) !important;
+      }
+      .has-tertiary-light-border-color {
+        border-color: var(--wp--preset--color--tertiary-light) !important;
+      }
+      .has-accent-border-color {
+        border-color: var(--wp--preset--color--accent) !important;
+      }
+      .has-accent-lite-border-color {
+        border-color: var(--wp--preset--color--accent-lite) !important;
+      }
+      .has-background-alt-border-color {
+        border-color: var(--wp--preset--color--background-alt) !important;
+      }
+      .has-foreground-border-color {
+        border-color: var(--wp--preset--color--foreground) !important;
+      }
+      .has-background-border-color {
+        border-color: var(--wp--preset--color--background) !important;
+      }
+      .has-heading-color-border-color {
+        border-color: var(--wp--preset--color--heading-color) !important;
+      }
+      .has-sub-heading-color-border-color {
+        border-color: var(--wp--preset--color--sub-heading-color) !important;
+      }
+      .has-foregound-alt-border-color {
+        border-color: var(--wp--preset--color--foregound-alt) !important;
+      }
+      .has-border-color-border-color {
+        border-color: var(--wp--preset--color--border-color) !important;
+      }
+      .has-transparent-border-color {
+        border-color: var(--wp--preset--color--transparent) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-first-primary-gradient-gradient-background {
+        background: var(
+          --wp--preset--gradient--first-primary-gradient
+        ) !important;
+      }
+      .has-second-primary-gradient-gradient-background {
+        background: var(
+          --wp--preset--gradient--second-primary-gradient
+        ) !important;
+      }
+      .has-third-primary-gradient-gradient-background {
+        background: var(
+          --wp--preset--gradient--third-primary-gradient
+        ) !important;
+      }
+      .has-fourth-primary-gradient-gradient-background {
+        background: var(
+          --wp--preset--gradient--fourth-primary-gradient
+        ) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      .has-xx-small-font-size {
+        font-size: var(--wp--preset--font-size--xx-small) !important;
+      }
+      .has-x-small-font-size {
+        font-size: var(--wp--preset--font-size--x-small) !important;
+      }
+      .has-xx-large-font-size {
+        font-size: var(--wp--preset--font-size--xx-large) !important;
+      }
+      .has-xxx-large-font-size {
+        font-size: var(--wp--preset--font-size--xxx-large) !important;
+      }
+      .has-xxxx-large-font-size {
+        font-size: var(--wp--preset--font-size--xxxx-large) !important;
+      }
+      .has-league-spartan-font-family {
+        font-family: var(--wp--preset--font-family--league-spartan) !important;
+      }
+      .has-body-font-family {
+        font-family: var(--wp--preset--font-family--body) !important;
+      }
+      .has-dm-sans-font-family {
+        font-family: var(--wp--preset--font-family--dm-sans) !important;
+      }
+      .has-inter-font-family {
+        font-family: var(--wp--preset--font-family--inter) !important;
+      }
+      .has-albert-sans-font-family {
+        font-family: var(--wp--preset--font-family--albert-sans) !important;
+      }
+      .has-hanken-grotesk-font-family {
+        font-family: var(--wp--preset--font-family--hanken-grotesk) !important;
+      }
+      .has-playfair-display-font-family {
+        font-family: var(
+          --wp--preset--font-family--playfair-display
+        ) !important;
+      }
+      .has-outfit-font-family {
+        font-family: var(--wp--preset--font-family--outfit) !important;
+      }
+      .has-quicksand-font-family {
+        font-family: var(--wp--preset--font-family--quicksand) !important;
+      }
+      .has-oswald-font-family {
+        font-family: var(--wp--preset--font-family--oswald) !important;
+      }
+      .has-nunito-font-family {
+        font-family: var(--wp--preset--font-family--nunito) !important;
+      }
+      .has-montserrat-font-family {
+        font-family: var(--wp--preset--font-family--montserrat) !important;
+      }
+      .has-plus-jakarta-sans-font-family {
+        font-family: var(
+          --wp--preset--font-family--plus-jakarta-sans
+        ) !important;
+      }
+      .has-space-grotesk-font-family {
+        font-family: var(--wp--preset--font-family--space-grotesk) !important;
+      }
+      .has-open-sans-font-family {
+        font-family: var(--wp--preset--font-family--open-sans) !important;
+      }
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+      body {
+        --wp--preset--duotone--primary: url(#wp-duotone-primary);
+      }
+    </style>
+    <style id="core-block-supports-inline-css">
+      .wp-elements-56e6b7b50cd2b74590395bb033423eaa
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foregound-alt);
+      }
+      .wp-container-core-group-is-layout-1.wp-container-core-group-is-layout-1 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--30);
+      }
+      .wp-container-core-group-is-layout-2.wp-container-core-group-is-layout-2 {
+        flex-wrap: nowrap;
+        gap: 0;
+      }
+      .wp-container-core-group-is-layout-3.wp-container-core-group-is-layout-3 {
+        justify-content: flex-end;
+      }
+      .wp-container-core-group-is-layout-4.wp-container-core-group-is-layout-4 {
+        justify-content: space-between;
+      }
+      .wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-5.wp-container-core-group-is-layout-5
+        > .alignfull {
+        margin-right: calc(0 * -1);
+        margin-left: calc(0 * -1);
+      }
+      .wp-container-core-buttons-is-layout-1.wp-container-core-buttons-is-layout-1 {
+        gap: var(--wp--preset--spacing--40);
+      }
+      .wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1.wp-container-core-column-is-layout-1
+        > *
+        + * {
+        margin-block-start: var(--wp--preset--spacing--20);
+        margin-block-end: 0;
+      }
+      .wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--60) var(--wp--preset--spacing--60);
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6.wp-container-core-group-is-layout-6
+        > *
+        + * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-buttons-is-layout-2.wp-container-core-buttons-is-layout-2 {
+        justify-content: center;
+      }
+      .wp-container-core-buttons-is-layout-3.wp-container-core-buttons-is-layout-3 {
+        justify-content: center;
+      }
+      .wp-container-core-buttons-is-layout-4.wp-container-core-buttons-is-layout-4 {
+        justify-content: center;
+      }
+      .wp-container-core-columns-is-layout-2.wp-container-core-columns-is-layout-2 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-10.wp-container-core-group-is-layout-10
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-10.wp-container-core-group-is-layout-10
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-10.wp-container-core-group-is-layout-10
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-10.wp-container-core-group-is-layout-10
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-container-core-columns-is-layout-3.wp-container-core-columns-is-layout-3 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-11.wp-container-core-group-is-layout-11
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-11.wp-container-core-group-is-layout-11
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-11.wp-container-core-group-is-layout-11
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-columns-is-layout-4.wp-container-core-columns-is-layout-4 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-14.wp-container-core-group-is-layout-14 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-16.wp-container-core-group-is-layout-16 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-18.wp-container-core-group-is-layout-18 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-5.wp-container-core-columns-is-layout-5 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-20.wp-container-core-group-is-layout-20 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-22.wp-container-core-group-is-layout-22 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-24.wp-container-core-group-is-layout-24 {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-6.wp-container-core-columns-is-layout-6 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-26.wp-container-core-group-is-layout-26
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-26.wp-container-core-group-is-layout-26
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-26.wp-container-core-group-is-layout-26
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-columns-is-layout-7.wp-container-core-columns-is-layout-7 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--80) 0px;
+      }
+      .wp-container-core-group-is-layout-28.wp-container-core-group-is-layout-28
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-28.wp-container-core-group-is-layout-28
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-28.wp-container-core-group-is-layout-28
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-28.wp-container-core-group-is-layout-28
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-container-core-group-is-layout-30.wp-container-core-group-is-layout-30 {
+        gap: var(--wp--preset--spacing--20);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-8.wp-container-core-columns-is-layout-8 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--70) var(--wp--preset--spacing--70);
+      }
+      .wp-container-core-group-is-layout-31.wp-container-core-group-is-layout-31 {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      .wp-container-core-group-is-layout-32.wp-container-core-group-is-layout-32
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-32.wp-container-core-group-is-layout-32
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-32.wp-container-core-group-is-layout-32
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-32.wp-container-core-group-is-layout-32
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-container-core-group-is-layout-34.wp-container-core-group-is-layout-34
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 760px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-34.wp-container-core-group-is-layout-34
+        > .alignwide {
+        max-width: 760px;
+      }
+      .wp-container-core-group-is-layout-34.wp-container-core-group-is-layout-34
+        .alignfull {
+        max-width: none;
+      }
+      .wp-elements-a075e894e6cb68ced16e58c53d229de1
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foreground);
+      }
+      .wp-container-core-group-is-layout-35.wp-container-core-group-is-layout-35 {
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-36.wp-container-core-group-is-layout-36 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--30);
+      }
+      .wp-container-core-group-is-layout-37.wp-container-core-group-is-layout-37
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-37.wp-container-core-group-is-layout-37.wp-container-core-group-is-layout-37.wp-container-core-group-is-layout-37
+        > *
+        + * {
+        margin-block-start: var(--wp--preset--spacing--20);
+        margin-block-end: 0;
+      }
+      .wp-elements-3728e6e4b2394ae2ee96a21cf2a7835f
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foreground);
+      }
+      .wp-container-core-group-is-layout-38.wp-container-core-group-is-layout-38 {
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-39.wp-container-core-group-is-layout-39 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--30);
+      }
+      .wp-container-core-group-is-layout-40.wp-container-core-group-is-layout-40
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-40.wp-container-core-group-is-layout-40.wp-container-core-group-is-layout-40.wp-container-core-group-is-layout-40
+        > *
+        + * {
+        margin-block-start: var(--wp--preset--spacing--20);
+        margin-block-end: 0;
+      }
+      .wp-elements-55887cb94edd1c80e5fdc73f2b43dceb
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foreground);
+      }
+      .wp-container-core-group-is-layout-41.wp-container-core-group-is-layout-41 {
+        gap: 0;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-group-is-layout-42.wp-container-core-group-is-layout-42 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--30);
+      }
+      .wp-container-core-group-is-layout-43.wp-container-core-group-is-layout-43
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-43.wp-container-core-group-is-layout-43.wp-container-core-group-is-layout-43.wp-container-core-group-is-layout-43
+        > *
+        + * {
+        margin-block-start: var(--wp--preset--spacing--20);
+        margin-block-end: 0;
+      }
+      .wp-container-core-columns-is-layout-9.wp-container-core-columns-is-layout-9 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--60) var(--wp--preset--spacing--60);
+      }
+      .wp-container-core-group-is-layout-44.wp-container-core-group-is-layout-44
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-44.wp-container-core-group-is-layout-44
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-44.wp-container-core-group-is-layout-44
+        .alignfull {
+        max-width: none;
+      }
+      .wp-block-gallery.wp-block-gallery-97 {
+        --wp--style--unstable-gallery-gap: var(--wp--preset--spacing--60);
+        gap: var(--wp--preset--spacing--60);
+      }
+      .wp-container-core-columns-is-layout-10.wp-container-core-columns-is-layout-10 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-is-layout-11.wp-container-core-columns-is-layout-11 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--60) var(--wp--preset--spacing--60);
+      }
+      .wp-elements-a8518e496d3b539baebfed936b22f0b0
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--heading-color);
+      }
+      .wp-container-core-group-is-layout-47.wp-container-core-group-is-layout-47 {
+        gap: var(--wp--preset--spacing--40);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-12.wp-container-core-columns-is-layout-12 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-48.wp-container-core-group-is-layout-48
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-48.wp-container-core-group-is-layout-48.wp-container-core-group-is-layout-48.wp-container-core-group-is-layout-48
+        > *
+        + * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-49.wp-container-core-group-is-layout-49 {
+        gap: var(--wp--preset--spacing--40);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-13.wp-container-core-columns-is-layout-13 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-50.wp-container-core-group-is-layout-50
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-50.wp-container-core-group-is-layout-50.wp-container-core-group-is-layout-50.wp-container-core-group-is-layout-50
+        > *
+        + * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-51.wp-container-core-group-is-layout-51 {
+        gap: var(--wp--preset--spacing--40);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-14.wp-container-core-columns-is-layout-14 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-52.wp-container-core-group-is-layout-52
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-52.wp-container-core-group-is-layout-52.wp-container-core-group-is-layout-52.wp-container-core-group-is-layout-52
+        > *
+        + * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-53.wp-container-core-group-is-layout-53 {
+        gap: var(--wp--preset--spacing--40);
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .wp-container-core-columns-is-layout-15.wp-container-core-columns-is-layout-15 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-54.wp-container-core-group-is-layout-54
+        > * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-group-is-layout-54.wp-container-core-group-is-layout-54.wp-container-core-group-is-layout-54.wp-container-core-group-is-layout-54
+        > *
+        + * {
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      .wp-container-core-post-template-is-layout-1.wp-container-core-post-template-is-layout-1 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      .wp-container-core-group-is-layout-56.wp-container-core-group-is-layout-56
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1180px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-56.wp-container-core-group-is-layout-56
+        > .alignwide {
+        max-width: 1180px;
+      }
+      .wp-container-core-group-is-layout-56.wp-container-core-group-is-layout-56
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-56.wp-container-core-group-is-layout-56
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-container-core-columns-is-layout-16.wp-container-core-columns-is-layout-16 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-is-layout-17.wp-container-core-columns-is-layout-17 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-is-layout-18.wp-container-core-columns-is-layout-18 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-columns-is-layout-19.wp-container-core-columns-is-layout-19 {
+        flex-wrap: nowrap;
+      }
+      .wp-container-core-group-is-layout-57.wp-container-core-group-is-layout-57
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 944px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-57.wp-container-core-group-is-layout-57
+        > .alignwide {
+        max-width: 944px;
+      }
+      .wp-container-core-group-is-layout-57.wp-container-core-group-is-layout-57
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-57.wp-container-core-group-is-layout-57
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-container-core-social-links-is-layout-1.wp-container-core-social-links-is-layout-1 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--20) 0;
+      }
+      .wp-elements-a39fcd873ce0987fbdc43b985a1eeaf8
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foregound-alt);
+      }
+      .wp-elements-3368401354b792a17f085ecd7ac4af8e
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foregound-alt);
+      }
+      .wp-elements-699512f5c6b341be24823357c74c97d0
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foregound-alt);
+      }
+      .wp-container-core-columns-is-layout-20.wp-container-core-columns-is-layout-20 {
+        flex-wrap: nowrap;
+        gap: var(--wp--preset--spacing--70) var(--wp--preset--spacing--70);
+      }
+      .wp-elements-8a7dc45823b4a82efc973622915b0aab
+        a:where(:not(.wp-element-button)) {
+        color: var(--wp--preset--color--foregound-alt);
+      }
+      .wp-container-core-group-is-layout-59.wp-container-core-group-is-layout-59 {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      .wp-container-core-group-is-layout-60.wp-container-core-group-is-layout-60
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 1260px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+      .wp-container-core-group-is-layout-60.wp-container-core-group-is-layout-60
+        > .alignwide {
+        max-width: 1260px;
+      }
+      .wp-container-core-group-is-layout-60.wp-container-core-group-is-layout-60
+        .alignfull {
+        max-width: none;
+      }
+      .wp-container-core-group-is-layout-60.wp-container-core-group-is-layout-60
+        > .alignfull {
+        margin-right: calc(var(--wp--preset--spacing--40) * -1);
+        margin-left: calc(var(--wp--preset--spacing--40) * -1);
+      }
+      .wp-duotone-primary.wp-block-image img,
+      .wp-duotone-primary.wp-block-image .components-placeholder {
+        filter: var(--wp--preset--duotone--primary);
+      }
+      .wp-duotone-unset-28.wp-block-image img,
+      .wp-duotone-unset-28.wp-block-image .components-placeholder {
+        filter: unset;
+      }
+      .wp-duotone-unset-78.wp-block-image img,
+      .wp-duotone-unset-78.wp-block-image .components-placeholder {
+        filter: unset;
+      }
+      .wp-duotone-unset-83.wp-block-image img,
+      .wp-duotone-unset-83.wp-block-image .components-placeholder {
+        filter: unset;
+      }
+      .wp-duotone-unset-88.wp-block-image img,
+      .wp-duotone-unset-88.wp-block-image .components-placeholder {
+        filter: unset;
+      }
+      .wp-duotone-unset-107.wp-block-post-featured-image img,
+      .wp-duotone-unset-107.wp-block-post-featured-image
+        .wp-block-post-featured-image__placeholder,
+      .wp-duotone-unset-107.wp-block-post-featured-image
+        .components-placeholder__illustration,
+      .wp-duotone-unset-107.wp-block-post-featured-image
+        .components-placeholder::before {
+        filter: unset;
+      }
+      .wp-duotone-unset-115.wp-block-post-featured-image img,
+      .wp-duotone-unset-115.wp-block-post-featured-image
+        .wp-block-post-featured-image__placeholder,
+      .wp-duotone-unset-115.wp-block-post-featured-image
+        .components-placeholder__illustration,
+      .wp-duotone-unset-115.wp-block-post-featured-image
+        .components-placeholder::before {
+        filter: unset;
+      }
+      .wp-duotone-unset-123.wp-block-post-featured-image img,
+      .wp-duotone-unset-123.wp-block-post-featured-image
+        .wp-block-post-featured-image__placeholder,
+      .wp-duotone-unset-123.wp-block-post-featured-image
+        .components-placeholder__illustration,
+      .wp-duotone-unset-123.wp-block-post-featured-image
+        .components-placeholder::before {
+        filter: unset;
+      }
+      .wp-duotone-unset-131.wp-block-post-featured-image img,
+      .wp-duotone-unset-131.wp-block-post-featured-image
+        .wp-block-post-featured-image__placeholder,
+      .wp-duotone-unset-131.wp-block-post-featured-image
+        .components-placeholder__illustration,
+      .wp-duotone-unset-131.wp-block-post-featured-image
+        .components-placeholder::before {
+        filter: unset;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="fotawp-style-css"
+      href="https://wp-themes.com/wp-content/themes/fotawp/style.css?ver=1.3.6"
+      media="all"
+    />
+    <script
+      src="https://wp-themes.com/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      src="https://wp-themes.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <link
+      rel="https://api.w.org/"
+      href="https://wp-themes.com/fotawp/?rest_route=/"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://wp-themes.com/wp/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.6-alpha-57835" />
+    <script id="wp-load-polyfill-importmap">
+      (HTMLScriptElement.supports && HTMLScriptElement.supports("importmap")) ||
+        document.write(
+          '<script src="https://wp-themes.com/wp/wp-includes/js/dist/vendor/wp-polyfill-importmap.min.js?ver=1.8.2"></scr' +
+            "ipt>"
+        );
+    </script>
+    <script type="importmap" id="wp-importmap">
+      {
+        "imports": {
+          "@wordpress\/interactivity": "https:\/\/wp-themes.com\/wp-content\/plugins\/gutenberg\/build\/interactivity\/index.min.js?ver=17.9.0"
+        }
+      }
+    </script>
+    <script
+      type="module"
+      src="https://wp-themes.com/wp-content/plugins/gutenberg/build/interactivity/navigation.min.js?ver=17.9.0"
+      id="@wordpress/block-library/navigation-js-module"
+    ></script>
+    <script
+      type="module"
+      src="https://wp-themes.com/wp-content/plugins/gutenberg/build/interactivity/search.min.js?ver=17.9.0"
+      id="@wordpress/block-library/search-js-module"
+    ></script>
+    <link
+      rel="modulepreload"
+      href="https://wp-themes.com/wp-content/plugins/gutenberg/build/interactivity/index.min.js?ver=17.9.0"
+      id="@wordpress/interactivity-js-modulepreload"
+    />
+    <style id="wp-fonts-local">
+      @font-face {
+        font-family: "League Spartan";
+        font-style: normal;
+        font-weight: 100 200 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/league_spartan/LeagueSpartan-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 300;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/lato/Lato-Light.woff2")
+          format("woff2");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 400;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/lato/Lato-Regular.woff2")
+          format("woff2");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 700;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/lato/Lato-Bold.woff2")
+          format("woff2");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/dm-sans/DMSans-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "DM Sans";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/dm-sans/DMSans-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 300 400 500 600 700;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/inter/Inter-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Albert Sans";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/albert-sans/AlbertSans-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Albert Sans";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/albert-sans/AlbertSans-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Hanken Grotesk";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/hanken-grotesk/HankenGrotesk-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Hanken Grotesk";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/playfair-display/PlayfairDisplay-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Playfair Display";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/playfair-display/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Outfit;
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/oswald/Oswald-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/nunito/Nunito-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Nunito;
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/nunito/Nunito-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/montserrat/Montserrat-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/plus-jakarta-sans/PlusJakartaSans-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/plus-jakarta-sans/PlusJakartaSans-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/space_grotesk/SpaceGrotesk-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/open-sans/OpenSans-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: italic;
+        font-weight: 300 400 500 600 700 900;
+        font-display: fallback;
+        src: url("https://wp-themes.com/wp-content/themes/fotawp/assets/fonts/open-sans/OpenSans-Italic-VariableFont_wght.ttf")
+          format("truetype");
+        font-stretch: normal;
+      }
+    </style>
+  </head>
+
+  <body class="home blog wp-embed-responsive">
+    <div class="wp-site-blocks">
+      <header class="wp-block-template-part">
+        <div
+          class="wp-block-cover alignfull is-light fotawpbanner-with-slantbottom"
+          style="
+            padding-top: var(--wp--preset--spacing--40);
+            padding-right: var(--wp--preset--spacing--40);
+            padding-bottom: var(--wp--preset--spacing--40);
+            padding-left: var(--wp--preset--spacing--40);
+            min-height: 780px;
+            aspect-ratio: unset;
+            aspect-ratio: unset;
+          "
+        >
+          <span
+            aria-hidden="true"
+            class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-first-primary-gradient-gradient-background"
+          ></span>
+          <div
+            class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"
+          >
+            <div
+              class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-5 wp-block-group-is-layout-constrained"
+              style="
+                padding-top: var(--wp--preset--spacing--40);
+                padding-right: 0;
+                padding-bottom: var(--wp--preset--spacing--20);
+                padding-left: 0;
+              "
+            >
+              <div
+                class="wp-block-group is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-4 wp-block-group-is-layout-flex"
+              >
+                <div
+                  class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-1 wp-block-group-is-layout-flex"
+                >
+                  <h1
+                    style="font-style: normal; font-weight: 500"
+                    class="has-link-color has-text-color has-text-alter-color-color wp-elements-56e6b7b50cd2b74590395bb033423eaa wp-block-site-title has-large-font-size"
+                  >
+                    <a
+                      href="https://wp-themes.com/fotawp"
+                      target="_self"
+                      rel="home"
+                      aria-current="page"
+                      >Grade++</a
+                    >
+                  </h1>
+                </div>
+
+                <div
+                  class="wp-block-group is-content-justification-right is-layout-flex wp-container-core-group-is-layout-3 wp-block-group-is-layout-flex"
+                >
+                  <nav
+                    class="has-text-color has-foregound-alt-color is-responsive fotawp-navigation wp-block-navigation is-layout-flex wp-block-navigation-is-layout-flex"
+                    aria-label=""
+                    data-wp-interactive="core/navigation"
+                    data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'
+                  >
+                    <button
+                      aria-haspopup="dialog"
+                      aria-label="Open menu"
+                      class="wp-block-navigation__responsive-container-open"
+                      data-wp-on--click="actions.openMenuOnClick"
+                      data-wp-on--keydown="actions.handleMenuKeydown"
+                    >
+                      <svg
+                        width="24"
+                        height="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                        focusable="false"
+                      >
+                        <rect x="4" y="7.5" width="16" height="1.5" />
+                        <rect x="4" y="15" width="16" height="1.5" />
+                      </svg>
+                    </button>
+                    <div
+                      class="wp-block-navigation__responsive-container has-text-color has-heading-color-color has-background has-foregound-alt-background-color"
+                      style=""
+                      id="modal-2"
+                      data-wp-class--has-modal-open="state.isMenuOpen"
+                      data-wp-class--is-menu-open="state.isMenuOpen"
+                      data-wp-watch="callbacks.initMenu"
+                      data-wp-on--keydown="actions.handleMenuKeydown"
+                      data-wp-on--focusout="actions.handleMenuFocusout"
+                      tabindex="-1"
+                    >
+                      <div
+                        class="wp-block-navigation__responsive-close"
+                        tabindex="-1"
+                      >
+                        <div
+                          class="wp-block-navigation__responsive-dialog"
+                          data-wp-bind--aria-modal="state.ariaModal"
+                          data-wp-bind--aria-label="state.ariaLabel"
+                          data-wp-bind--role="state.roleAttribute"
+                        >
+                          <button
+                            aria-label="Close menu"
+                            class="wp-block-navigation__responsive-container-close"
+                            data-wp-on--click="actions.closeMenuOnClick"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                              width="24"
+                              height="24"
+                              aria-hidden="true"
+                              focusable="false"
+                            >
+                              <path
+                                d="M13 11.8l6.1-6.3-1-1-6.1 6.2-6.1-6.2-1 1 6.1 6.3-6.5 6.7 1 1 6.5-6.6 6.5 6.6 1-1z"
+                              ></path>
+                            </svg>
+                          </button>
+                          <div
+                            class="wp-block-navigation__responsive-container-content"
+                            data-wp-watch="callbacks.focusFirstElement"
+                            id="modal-2-content"
+                          >
+                            <ul
+                              class="wp-block-navigation__container has-text-color has-foregound-alt-color is-responsive fotawp-navigation wp-block-navigation"
+                            >
+                              <li
+                                class="has-text-color has-foregound-alt-color wp-block-navigation-item current-menu-item wp-block-home-link"
+                              >
+                                <a
+                                  class="wp-block-home-link__content wp-block-navigation-item__content"
+                                  href="https://wp-themes.com/fotawp"
+                                  rel="home"
+                                  aria-current="page"
+                                  >Home</a
+                                >
+                              </li>
+                              <ul
+                                class="has-text-color has-foregound-alt-color wp-block-page-list"
+                              >
+                                <li
+                                  class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click"
+                                >
+                                  <a
+                                    class="wp-block-pages-list__item__link wp-block-navigation-item__content"
+                                    href="https://wp-themes.com/fotawp/?page_id=2"
+                                    >About</a
+                                  >
+                                </li>
+                                <li
+                                  data-wp-context='{ "submenuOpenedBy": { "click": false, "hover": false, "focus": false }, "type": "submenu" }'
+                                  data-wp-interactive="core/navigation"
+                                  data-wp-on--focusout="actions.handleMenuFocusout"
+                                  data-wp-on--keydown="actions.handleMenuKeydown"
+                                  data-wp-on--mouseenter="actions.openMenuOnHover"
+                                  data-wp-on--mouseleave="actions.closeMenuOnHover"
+                                  data-wp-watch="callbacks.initMenu"
+                                  tabindex="-1"
+                                  class="wp-block-pages-list__item has-child wp-block-navigation-item open-on-hover-click"
+                                >
+                                  <a
+                                    class="wp-block-pages-list__item__link wp-block-navigation-item__content"
+                                    href="https://wp-themes.com/fotawp/?page_id=46"
+                                    >Parent Page</a
+                                  ><button
+                                    data-wp-bind--aria-expanded="state.isMenuOpen"
+                                    data-wp-on--click="actions.toggleMenuOnClick"
+                                    aria-label="Parent Page submenu"
+                                    class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle"
+                                  >
+                                    <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="12"
+                                      height="12"
+                                      viewBox="0 0 12 12"
+                                      fill="none"
+                                      aria-hidden="true"
+                                      focusable="false"
+                                    >
+                                      <path
+                                        d="M1.50002 4L6.00002 8L10.5 4"
+                                        stroke-width="1.5"
+                                      ></path>
+                                    </svg>
+                                  </button>
+                                  <ul
+                                    data-wp-on--focus="actions.openMenuOnFocus"
+                                    class="wp-block-navigation__submenu-container"
+                                  >
+                                    <li
+                                      class="wp-block-pages-list__item wp-block-navigation-item open-on-hover-click has-text-color has-heading-color-color has-background has-foregound-alt-background-color"
+                                    >
+                                      <a
+                                        class="wp-block-pages-list__item__link wp-block-navigation-item__content"
+                                        href="https://wp-themes.com/fotawp/?page_id=49"
+                                        >Sub-page</a
+                                      >
+                                    </li>
+                                  </ul>
+                                </li>
+                              </ul>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+
+                  <div
+                    class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-2 wp-block-group-is-layout-flex"
+                  >
+                    <form
+                      role="search"
+                      method="get"
+                      action="https://wp-themes.com/fotawp/"
+                      class="wp-block-search__button-only wp-block-search__searchfield-hidden wp-block-search__icon-button fotawp-nav-search wp-block-search"
+                      data-wp-interactive="core/search"
+                      data-wp-context='{"isSearchInputVisible":false,"inputId":"wp-block-search__input-4","ariaLabelExpanded":"Submit Search","ariaLabelCollapsed":"Expand search field"}'
+                      data-wp-class--wp-block-search__searchfield-hidden="!context.isSearchInputVisible"
+                      data-wp-on--keydown="actions.handleSearchKeydown"
+                      data-wp-on--focusout="actions.handleSearchFocusout"
+                    >
+                      <label
+                        class="wp-block-search__label screen-reader-text"
+                        for="wp-block-search__input-4"
+                        >Search</label
+                      >
+                      <div class="wp-block-search__inside-wrapper">
+                        <input
+                          aria-hidden="true"
+                          class="wp-block-search__input"
+                          data-wp-bind--aria-hidden="!context.isSearchInputVisible"
+                          data-wp-bind--tabindex="state.tabindex"
+                          id="wp-block-search__input-4"
+                          placeholder=""
+                          value=""
+                          type="search"
+                          name="s"
+                          required
+                        /><button
+                          aria-expanded="false"
+                          class="wp-block-search__button has-background has-transparent-background-color has-icon wp-element-button"
+                          data-wp-bind--aria-controls="state.ariaControls"
+                          data-wp-bind--aria-expanded="context.isSearchInputVisible"
+                          data-wp-bind--aria-label="state.ariaLabel"
+                          data-wp-bind--type="state.type"
+                          data-wp-on--click="actions.openSearchInput"
+                        >
+                          <svg
+                            class="search-icon"
+                            viewBox="0 0 24 24"
+                            width="24"
+                            height="24"
+                          >
+                            <path
+                              d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"
+                            ></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="height: 10px"
+              aria-hidden="true"
+              class="wp-block-spacer"
+            ></div>
+
+            <div
+              class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-6 wp-block-group-is-layout-constrained"
+            >
+              <div
+                class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex"
+              >
+                <div
+                  class="wp-block-column is-vertically-aligned-center is-style-default is-layout-flow wp-container-core-column-is-layout-1 wp-block-column-is-layout-flow"
+                  style="
+                    padding-top: var(--wp--preset--spacing--40);
+                    padding-right: 0;
+                    padding-bottom: var(--wp--preset--spacing--40);
+                    padding-left: 0;
+                    flex-basis: 45%;
+                  "
+                >
+                  <h2
+                    class="wp-block-heading alignwide has-text-align-left has-foregound-alt-color has-text-color"
+                    style="
+                      margin-top: 0;
+                      margin-right: 0;
+                      margin-bottom: 24px;
+                      margin-left: 0;
+                      padding-top: 0;
+                      padding-right: 0;
+                      padding-bottom: 0;
+                      padding-left: 0;
+                      font-size: 48px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: 1.4;
+                    "
+                  >
+                    Unlock Your Academic Success with Our Help!
+                  </h2>
+
+                  <p
+                    class="has-foregound-alt-color has-text-color"
+                    style="
+                      margin-bottom: var(--wp--preset--spacing--60);
+                      font-size: 16px;
+                      line-height: 1.8;
+                    "
+                  >
+                    Unlock the door to academic success with our comprehensive
+                    support services.
+                  </p>
+
+                  <div
+                    class="wp-block-buttons is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex"
+                  >
+                    <div
+                      class="wp-block-button is-style-button-hover-secondary-bgcolor"
+                    >
+                      <a
+                        class="wp-block-button__link has-heading-color-color has-background-alt-background-color has-text-color has-background wp-element-button"
+                        href="#"
+                        style="
+                          border-radius: 10px;
+                          padding-top: 1.3rem;
+                          padding-right: 2.5rem;
+                          padding-bottom: 1.3rem;
+                          padding-left: 2.5rem;
+                        "
+                        >Let's Start</a
+                      >
+                    </div>
+
+                    <div
+                      class="wp-block-button has-custom-font-size is-style-button-hover-white-bgcolor has-small-font-size"
+                    >
+                      <a
+                        class="wp-block-button__link has-foregound-alt-color has-secondary-background-color has-text-color has-background wp-element-button"
+                        href="#"
+                        style="
+                          border-radius: 10px;
+                          padding-top: 1.3rem;
+                          padding-right: 2.5rem;
+                          padding-bottom: 1.3rem;
+                          padding-left: 2.5rem;
+                        "
+                        >Find Experts</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  style="
+                    padding-top: 0;
+                    padding-right: 0;
+                    padding-bottom: 0;
+                    padding-left: 0;
+                  "
+                >
+                  <figure class="wp-block-image alignright size-full">
+                    <img
+                      decoding="async"
+                      src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/banner_featured_image.png"
+                      alt=""
+                      class="wp-image-2954"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style="height: 330px"
+              aria-hidden="true"
+              class="wp-block-spacer"
+            ></div>
+          </div>
+        </div>
+      </header>
+
+      <main
+        class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
+      >
+        <div
+          class="wp-block-group fotawp-overlap-ctasection is-layout-constrained wp-container-core-group-is-layout-10 wp-block-group-is-layout-constrained"
+          style="
+            padding-top: var(--wp--preset--spacing--40);
+            padding-right: var(--wp--preset--spacing--40);
+            padding-bottom: var(--wp--preset--spacing--40);
+            padding-left: var(--wp--preset--spacing--40);
+          "
+        >
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex"
+          >
+            <div
+              class="wp-block-column is-style-default is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-style: none;
+                border-width: 0px;
+                padding-top: 0;
+                padding-right: var(--wp--preset--spacing--30);
+                padding-bottom: 0;
+                padding-left: 0;
+              "
+            >
+              <div
+                class="wp-block-group is-style-fotawp-boxshadow has-border-color has-border-color-border-color has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                style="
+                  border-width: 1px;
+                  border-radius: 10px;
+                  padding-top: 36px;
+                  padding-right: 36px;
+                  padding-bottom: 36px;
+                  padding-left: 36px;
+                "
+              >
+                <figure
+                  class="wp-block-image aligncenter size-full fotawp-duotone-primary wp-duotone-primary"
+                >
+                  <img
+                    src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_easy_customize.svg"
+                    alt=""
+                    class="wp-image-974"
+                  />
+                </figure>
+
+                <h4
+                  class="wp-block-heading has-text-align-center has-heading-color-color has-text-color has-medium-font-size"
+                  style="
+                    margin-top: var(--wp--preset--spacing--40);
+                    font-style: normal;
+                    font-weight: 600;
+                  "
+                >
+                  Easy To Get Started
+                </h4>
+
+                <p
+                  class="has-text-align-center"
+                  style="font-size: 18px; line-height: 1.5"
+                >
+                  Just Regster and Find the Experts you want to take care about
+                  your acadamic success !
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="wp-block-column is-style-default is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-style: none;
+                border-width: 0px;
+                padding-top: 0;
+                padding-right: var(--wp--preset--spacing--20);
+                padding-bottom: var(--wp--preset--spacing--20);
+                padding-left: 0;
+              "
+            >
+              <div
+                class="wp-block-group is-style-fotawp-boxshadow has-border-color has-border-color-border-color has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                style="
+                  border-width: 1px;
+                  border-radius: 10px;
+                  padding-top: 36px;
+                  padding-right: 36px;
+                  padding-bottom: 36px;
+                  padding-left: 36px;
+                "
+              >
+                <figure
+                  class="wp-block-image aligncenter size-full fotawp-duotone-primary wp-duotone-primary"
+                >
+                  <img
+                    src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_mobile_first.svg"
+                    alt=""
+                    class="wp-image-974"
+                  />
+                </figure>
+
+                <h4
+                  class="wp-block-heading has-text-align-center has-heading-color-color has-text-color has-medium-font-size"
+                  style="
+                    margin-top: var(--wp--preset--spacing--40);
+                    font-style: normal;
+                    font-weight: 600;
+                  "
+                >
+                  Verified Experts
+                </h4>
+
+                <p
+                  class="has-text-align-center"
+                  style="font-size: 18px; line-height: 1.5"
+                >
+                  Before assigning the assignment to our experts, we are doing
+                  some filter method to know our experts really fit your need !
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="wp-block-column is-style-default is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-style: none;
+                border-width: 0px;
+                padding-top: 0;
+                padding-right: 0;
+                padding-bottom: 0;
+                padding-left: 0;
+              "
+            >
+              <div
+                class="wp-block-group is-style-fotawp-boxshadow has-border-color has-border-color-border-color has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                style="
+                  border-width: 1px;
+                  border-radius: 10px;
+                  padding-top: 36px;
+                  padding-right: 36px;
+                  padding-bottom: 36px;
+                  padding-left: 36px;
+                "
+              >
+                <figure
+                  class="wp-block-image aligncenter size-full fotawp-duotone-primary wp-duotone-primary"
+                >
+                  <img
+                    src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_pagebuilder.svg"
+                    alt=""
+                    class="wp-image-164"
+                  />
+                </figure>
+
+                <h4
+                  class="wp-block-heading has-text-align-center has-heading-color-color has-text-color has-medium-font-size"
+                  style="
+                    margin-top: var(--wp--preset--spacing--40);
+                    font-style: normal;
+                    font-weight: 600;
+                  "
+                >
+                  24/7
+                </h4>
+
+                <p
+                  class="has-text-align-center"
+                  style="font-size: 18px; line-height: 1.5"
+                >
+                  We are working 24 / 7 to satisfy and fullfill your need and
+                  unlock your acadamic success !
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained"
+          style="
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+          "
+        >
+          <div
+            class="wp-block-cover is-light"
+            style="min-height: 692px; aspect-ratio: unset; aspect-ratio: unset"
+          >
+            <span
+              aria-hidden="true"
+              class="wp-block-cover__background has-background-background-color has-background-dim-0 has-background-dim"
+            ></span>
+            <div
+              class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"
+            >
+              <div
+                style="height: 80px"
+                aria-hidden="true"
+                class="wp-block-spacer"
+              ></div>
+
+              <div
+                class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-11 wp-block-group-is-layout-constrained"
+              >
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-3 wp-block-columns-is-layout-flex"
+                >
+                  <div
+                    class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+                    style="padding-top: 0; flex-basis: 45%"
+                  >
+                    <h6
+                      class="wp-block-heading has-foreground-color has-text-color has-x-small-font-size"
+                      style="
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        font-style: normal;
+                        font-weight: 600;
+                      "
+                    >
+                      OUR STORY
+                    </h6>
+
+                    <h2
+                      class="wp-block-heading has-heading-color-color has-text-color"
+                      style="
+                        margin-top: var(--wp--preset--spacing--20);
+                        font-size: 44px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 1.3;
+                      "
+                    >
+                      Quality Solutions for Your Academic Challenges!
+                    </h2>
+
+                    <p
+                      class="has-foreground-color has-text-color"
+                      style="font-size: 18px; line-height: 1.5"
+                    >
+                      Facing academic challenges? Our service offers quality
+                      solutions tailored to your specific needs. With our expert
+                      assistance, you can overcome obstacles and achieve your
+                      academic goals with confidence.
+                    </p>
+
+                    <div
+                      class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex"
+                    >
+                      <div
+                        class="wp-block-button is-style-button-hover-primary-bgcolor"
+                      >
+                        <a
+                          class="wp-block-button__link has-foregound-alt-color has-secondary-background-color has-text-color has-background wp-element-button"
+                          style="
+                            border-radius: 10px;
+                            padding-top: 1.2em;
+                            padding-right: 2.5rem;
+                            padding-bottom: 1.2em;
+                            padding-left: 2.5rem;
+                          "
+                          >Read More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <figure
+                      class="wp-block-image size-full wp-duotone-unset-28"
+                    >
+                      <img
+                        src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/man_with_laptop.svg"
+                        alt=""
+                        class="wp-image-171"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                style="height: 100px"
+                aria-hidden="true"
+                class="wp-block-spacer"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wp-block-group has-heading-color-color has-background-alt-background-color has-text-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+          style="
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+          "
+        >
+          <div
+            class="wp-block-cover is-light"
+            style="
+              padding-top: var(--wp--preset--spacing--80);
+              padding-right: var(--wp--preset--spacing--30);
+              padding-bottom: var(--wp--preset--spacing--80);
+              padding-left: var(--wp--preset--spacing--40);
+            "
+          >
+            <span
+              aria-hidden="true"
+              class="wp-block-cover__background has-background-dim-0 has-background-dim"
+            ></span>
+            <div
+              class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"
+            >
+              <div
+                class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-13 wp-block-group-is-layout-constrained"
+                style="padding-top: var(--wp--preset--spacing--50)"
+              >
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-4 wp-block-columns-is-layout-flex"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <h6
+                      class="wp-block-heading has-foreground-color has-text-color has-x-small-font-size"
+                      style="font-style: normal; font-weight: 600"
+                    >
+                      SERVICES
+                    </h6>
+
+                    <h1
+                      class="wp-block-heading has-heading-color-color has-text-color"
+                      style="
+                        margin-top: var(--wp--preset--spacing--40);
+                        font-size: 48px;
+                        font-style: normal;
+                        font-weight: 600;
+                      "
+                    >
+                      Our Services
+                    </h1>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-26 wp-block-group-is-layout-constrained"
+                style="
+                  padding-top: var(--wp--preset--spacing--70);
+                  padding-bottom: var(--wp--preset--spacing--50);
+                "
+              >
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-5 wp-block-columns-is-layout-flex"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow-hover has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 10px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <div
+                        class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-14 wp-block-group-is-layout-flex"
+                      >
+                        <figure
+                          class="wp-block-image alignleft size-full fotawp-duotone-primary"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_strategy.svg"
+                            alt=""
+                            class="wp-image-1114"
+                          />
+                        </figure>
+                        <h6
+                          class="wp-block-heading has-heading-color-color has-text-color has-medium-font-size"
+                          style="font-style: normal; font-weight: 600"
+                        >
+                          Quality Assurance
+                        </h6>
+                        <p
+                          class="has-foreground-color has-text-color"
+                          style="font-size: 18px; line-height: 1.5"
+                        >
+                          Ensuring high-quality services and solutions through
+                          rigorous quality assurance processes and continuous
+                          improvement initiatives.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow-hover has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 10px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <div
+                        class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-16 wp-block-group-is-layout-flex"
+                      >
+                        <figure
+                          class="wp-block-image alignleft size-full is-resized fotawp-duotone-primary"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_ecommerce.svg"
+                            alt=""
+                            class="wp-image-167"
+                            style="width: 60px; height: 60px"
+                          />
+                        </figure>
+                        <h6
+                          class="wp-block-heading has-heading-color-color has-text-color has-medium-font-size"
+                          style="font-style: normal; font-weight: 600"
+                        >
+                          Assignment Help and Support
+                        </h6>
+                        <p
+                          class="has-foreground-color has-text-color"
+                          style="font-size: 18px; line-height: 1.5"
+                        >
+                          Offering assistance with various types of assignments,
+                          including research papers, essays, problem sets, and
+                          projects. This may involve providing research help,
+                          writing assistance, and solutions to assignment
+                          questions.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow-hover has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 10px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <div
+                        class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-18 wp-block-group-is-layout-flex"
+                      >
+                        <figure
+                          class="wp-block-image alignleft size-full is-resized fotawp-duotone-primary"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/icon_screen.svg"
+                            alt=""
+                            class="wp-image-167"
+                            style="width: 60px; height: 60px"
+                          />
+                        </figure>
+                        <h6
+                          class="wp-block-heading has-heading-color-color has-text-color has-medium-font-size"
+                          style="font-style: normal; font-weight: 600"
+                        >
+                          Expert Guidance and Assistance
+                        </h6>
+                        <p
+                          class="has-foreground-color has-text-color"
+                          style="font-size: 18px; line-height: 1.5"
+                        >
+                          Providing expert guidance and assistance to students
+                          in tackling challenging assignments, mastering
+                          difficult concepts, and achieving academic success.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="wp-block-group fotawp-portfolio-section has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+    <div class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-28 wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:120px;padding-right:var(--wp--preset--spacing--40);padding-bottom:100px;padding-left:var(--wp--preset--spacing--40)">
+        <div class="fotawp-projects-columns wp-block-columns are-vertically-aligned-top is-layout-flex wp-container-core-columns-is-layout-7 wp-block-columns-is-layout-flex" style="padding-top:0;padding-bottom:0">
+            <div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="border-right-color:var(--wp--preset--color--tertiary-light);border-right-width:1px;padding-right:70px">
+                <h1 class="wp-block-heading has-heading-color-color has-text-color" style="font-size:32px;font-style:normal;font-weight:600;line-height:1.4;text-transform:capitalize">A user friendly theme built with usability in mind</h1>
+                
+
+                
+                <p class="has-foreground-color has-text-color" style="font-size:18px;line-height:1.5">Every project is different and so should the process be. We’ll define a clear framework of how we communicate, exchange feedback and effectively work together.</p>
+                
+
+                
+                <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex" style="margin-bottom:var(--wp--preset--spacing--70)">
+                    <div class="wp-block-button has-custom-font-size fotawp-button-with-icon is-style-button-hover-secondary-color" style="font-size:18px"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background wp-element-button" href="#" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Read More</a></div>
+                    
+                </div>
+                
+
+                
+                <figure class="wp-block-image size-full has-custom-border"><img src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/project_11.jpg" alt="" class="wp-image-1080" style="border-radius:10px;object-fit:cover" /></figure>
+                
+            </div>
+            
+
+            
+            <div class="wp-block-column is-vertically-aligned-top is-layout-flow wp-block-column-is-layout-flow" style="padding-left:70px">
+                <figure class="wp-block-image size-full has-custom-border"><img src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/project_22.jpg" alt="" class="wp-image-1085" style="border-radius:10px" /></figure>
+                
+
+                
+                <h1 class="wp-block-heading has-heading-color-color has-text-color" style="margin-top:60px;font-size:32px;font-style:normal;font-weight:600;line-height:1.4">Build Your Website to the Ultimate Level with FotaWP</h1>
+                
+
+                
+                <p class="has-foreground-color has-text-color" style="font-size:18px;line-height:1.5">Every project is different and so should the process be. We’ll define a clear framework of how we communicate, exchange feedback and effectively work together.</p>
+                
+
+                
+                <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+                    <div class="wp-block-button has-custom-font-size fotawp-button-with-icon is-style-button-hover-secondary-color" style="font-size:18px"><a class="wp-block-button__link has-primary-color has-transparent-background-color has-text-color has-background wp-element-button" href="#" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Read More</a></div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div> -->
+
+        <div
+          class="wp-block-group has-background-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained"
+          style="
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 120px;
+            padding-right: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+          "
+        >
+          <div class="wp-block-cover is-light">
+            <span
+              aria-hidden="true"
+              class="wp-block-cover__background has-background-background-color has-background-dim-0 has-background-dim"
+            ></span>
+            <div
+              class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow"
+            >
+              <div
+                class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-44 wp-block-group-is-layout-constrained"
+                style="padding-bottom: var(--wp--preset--spacing--60)"
+              >
+                <div
+                  class="wp-block-group is-layout-constrained wp-container-core-group-is-layout-34 wp-block-group-is-layout-constrained"
+                >
+                  <h6
+                    class="wp-block-heading has-text-align-center has-foreground-color has-text-color has-x-small-font-size"
+                    style="font-style: normal; font-weight: 600"
+                  >
+                    TESTIMONIALS
+                  </h6>
+
+                  <h1
+                    class="wp-block-heading has-text-align-center has-heading-color-color has-text-color"
+                    style="
+                      font-size: 40px;
+                      font-style: normal;
+                      font-weight: 600;
+                      line-height: 1.4;
+                    "
+                  >
+                    Voices of Satisfaction: Hear What Our Clients Have to Say!
+                  </h1>
+                </div>
+
+                <div
+                  class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-9 wp-block-columns-is-layout-flex"
+                  style="margin-top: 60px; padding-right: 0; padding-left: 0"
+                >
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow has-foregound-alt-background-color has-background is-layout-constrained wp-container-core-group-is-layout-37 wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 6px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <figure
+                        class="wp-block-image size-full is-resized wp-duotone-unset-78"
+                      >
+                        <img
+                          src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/review_star.svg"
+                          alt=""
+                          class="wp-image-2897"
+                          style="width: auto; height: 20px"
+                        />
+                      </figure>
+
+                      <p
+                        class="has-sub-heading-color-color has-text-color"
+                        style="
+                          margin-top: 14px;
+                          font-size: 18px;
+                          line-height: 1.6;
+                        "
+                      >
+                        Completely synergize resource taxing relationships via
+                        premier niche markets. Professionally cultivate
+                        one-to-one customer service with robust ideas.
+                        Dynamically innovate.
+                      </p>
+
+                      <div
+                        class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-36 wp-block-group-is-layout-flex"
+                        style="margin-top: var(--wp--preset--spacing--60)"
+                      >
+                        <figure
+                          class="wp-block-image is-resized has-custom-border"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/fota_testimonial_1.png"
+                            alt=""
+                            class="wp-image-1822"
+                            style="
+                              border-radius: 50px;
+                              width: 60px;
+                              height: 60px;
+                            "
+                          />
+                        </figure>
+
+                        <div
+                          class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-35 wp-block-group-is-layout-flex"
+                        >
+                          <h5
+                            class="wp-block-heading"
+                            style="
+                              font-size: 18px;
+                              font-style: normal;
+                              font-weight: 600;
+                            "
+                          >
+                            Patrick Loy
+                          </h5>
+
+                          <p
+                            class="has-foreground-color has-text-color has-link-color has-x-small-font-size wp-elements-a075e894e6cb68ced16e58c53d229de1"
+                          >
+                            Blogger
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow has-foregound-alt-background-color has-background is-layout-constrained wp-container-core-group-is-layout-40 wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 6px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <figure
+                        class="wp-block-image size-full is-resized wp-duotone-unset-83"
+                      >
+                        <img
+                          src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/review_star.svg"
+                          alt=""
+                          class="wp-image-2897"
+                          style="width: auto; height: 20px"
+                        />
+                      </figure>
+
+                      <p
+                        class="has-sub-heading-color-color has-text-color"
+                        style="
+                          margin-top: 14px;
+                          font-size: 18px;
+                          line-height: 1.6;
+                        "
+                      >
+                        Completely synergize resource taxing relationships via
+                        premier niche markets. Professionally cultivate
+                        one-to-one customer service with robust ideas.
+                        Dynamically innovate.
+                      </p>
+
+                      <div
+                        class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-39 wp-block-group-is-layout-flex"
+                        style="margin-top: var(--wp--preset--spacing--60)"
+                      >
+                        <figure
+                          class="wp-block-image size-full is-resized has-custom-border"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/fota_testimonial_2.png"
+                            alt=""
+                            class="wp-image-93"
+                            style="
+                              border-radius: 50px;
+                              width: 60px;
+                              height: 60px;
+                            "
+                          />
+                        </figure>
+
+                        <div
+                          class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-38 wp-block-group-is-layout-flex"
+                        >
+                          <h5
+                            class="wp-block-heading"
+                            style="
+                              font-size: 18px;
+                              font-style: normal;
+                              font-weight: 600;
+                            "
+                          >
+                            Liyana Pepp
+                          </h5>
+
+                          <p
+                            class="has-foreground-color has-text-color has-link-color has-x-small-font-size wp-elements-3728e6e4b2394ae2ee96a21cf2a7835f"
+                          >
+                            Traveller
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+                  >
+                    <div
+                      class="wp-block-group is-style-fotawp-boxshadow has-foregound-alt-background-color has-background is-layout-constrained wp-container-core-group-is-layout-43 wp-block-group-is-layout-constrained"
+                      style="
+                        border-radius: 6px;
+                        padding-top: var(--wp--preset--spacing--60);
+                        padding-right: var(--wp--preset--spacing--60);
+                        padding-bottom: var(--wp--preset--spacing--60);
+                        padding-left: var(--wp--preset--spacing--60);
+                      "
+                    >
+                      <figure
+                        class="wp-block-image size-full is-resized wp-duotone-unset-88"
+                      >
+                        <img
+                          src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/review_star.svg"
+                          alt=""
+                          class="wp-image-2897"
+                          style="width: auto; height: 20px"
+                        />
+                      </figure>
+
+                      <p
+                        class="has-sub-heading-color-color has-text-color"
+                        style="
+                          margin-top: 14px;
+                          font-size: 18px;
+                          line-height: 1.6;
+                        "
+                      >
+                        Completely synergize resource taxing relationships via
+                        premier niche markets. Professionally cultivate
+                        one-to-one customer service with robust ideas.
+                        Dynamically innovate.
+                      </p>
+
+                      <div
+                        class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-42 wp-block-group-is-layout-flex"
+                        style="margin-top: var(--wp--preset--spacing--60)"
+                      >
+                        <figure
+                          class="wp-block-image size-full is-resized has-custom-border"
+                        >
+                          <img
+                            src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/fota_testimonial_3.png"
+                            alt=""
+                            class="wp-image-94"
+                            style="
+                              border-radius: 50px;
+                              width: 60px;
+                              height: 60px;
+                            "
+                          />
+                        </figure>
+
+                        <div
+                          class="wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-41 wp-block-group-is-layout-flex"
+                        >
+                          <h5
+                            class="wp-block-heading"
+                            style="
+                              font-size: 18px;
+                              font-style: normal;
+                              font-weight: 600;
+                            "
+                          >
+                            Lexy Andrew
+                          </h5>
+
+                          <p
+                            class="has-foreground-color has-text-color has-link-color has-x-small-font-size wp-elements-55887cb94edd1c80e5fdc73f2b43dceb"
+                          >
+                            Writer
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="wp-block-group has-background-background-color has-background is-content-justification-center is-layout-constrained wp-block-group-is-layout-constrained"
+          style="
+            padding-top: var(--wp--preset--spacing--70);
+            padding-bottom: var(--wp--preset--spacing--80);
+          "
+        >
+          <h5
+            class="wp-block-heading has-text-align-center has-medium-font-size"
+            style="font-style: normal; font-weight: 600"
+          >
+            Our Experts
+          </h5>
+
+          <figure
+            class="wp-block-gallery aligncenter has-nested-images columns-6 fotawp-brands-logos is-style-enable-grayscale-mode-on-image wp-block-gallery-97 is-layout-flex wp-block-gallery-is-layout-flex"
+            style="
+              margin-top: var(--wp--preset--spacing--70);
+              margin-right: 0;
+              padding-right: 0;
+              padding-bottom: var(--wp--preset--spacing--50);
+              padding-left: 0;
+            "
+          >
+            <figure class="wp-block-image size-full">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo1.png"
+                alt=""
+                class="wp-image-562"
+              />
+            </figure>
+
+            <figure class="wp-block-image size-full">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo2.png"
+                alt=""
+                class="wp-image-563"
+              />
+            </figure>
+
+            <figure class="wp-block-image size-large">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo3.png"
+                alt=""
+                class="wp-image-564"
+              />
+            </figure>
+
+            <figure class="wp-block-image size-large">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo4.png"
+                alt=""
+                class="wp-image-565"
+              />
+            </figure>
+
+            <figure class="wp-block-image size-full">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo5.png"
+                alt=""
+                class="wp-image-566"
+              />
+            </figure>
+
+            <figure class="wp-block-image size-large">
+              <img
+                src="https://wp-themes.com/wp-content/themes/fotawp/assets/images/logo6.png"
+                alt=""
+                class="wp-image-567"
+              />
+            </figure>
+          </figure>
+        </div>
+
+        <div
+          class="wp-block-group has-background-background-color has-background is-layout-constrained wp-container-core-group-is-layout-57 wp-block-group-is-layout-constrained"
+          style="
+            padding-top: var(--wp--preset--spacing--80);
+            padding-right: var(--wp--preset--spacing--40);
+            padding-bottom: var(--wp--preset--spacing--80);
+            padding-left: var(--wp--preset--spacing--40);
+          "
+        >
+          <h1
+            class="wp-block-heading has-text-align-left"
+            style="font-size: 48px; font-style: normal; font-weight: 600"
+          >
+            Frequently Asked Questions
+          </h1>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-16 wp-block-columns-is-layout-flex"
+            style="padding-top: var(--wp--preset--spacing--60)"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-bottom-color: var(--wp--preset--color--border-color);
+                border-bottom-width: 2px;
+                padding-right: var(--wp--preset--spacing--30);
+                padding-bottom: var(--wp--preset--spacing--60);
+              "
+            >
+              <h3
+                class="wp-block-heading"
+                style="padding-bottom: 0; font-size: 24px"
+              >
+                What is Full Site Editing in WordPress?
+              </h3>
+
+              <p style="font-size: 18px; line-height: 1.5">
+                Full Site Editing in WordPress refers to a feature that allows
+                users to create and edit their website\s entire layout,
+                including the header, footer, and other structural elements,
+                using a visual editor.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-17 wp-block-columns-is-layout-flex"
+            style="padding-top: var(--wp--preset--spacing--20)"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-bottom-color: var(--wp--preset--color--border-color);
+                border-bottom-width: 2px;
+                padding-right: var(--wp--preset--spacing--30);
+                padding-bottom: var(--wp--preset--spacing--60);
+              "
+            >
+              <h3
+                class="wp-block-heading"
+                style="padding-bottom: 0; font-size: 24px"
+              >
+                What are the benefits of Full Site Editing in WordPress?
+              </h3>
+
+              <p style="font-size: 18px; line-height: 1.5">
+                Full Site Editing in WordPress allows users to create and edit
+                their website more efficiently and with more control. It enables
+                users to create unique and custom designs without needing to
+                have advanced coding skills.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-18 wp-block-columns-is-layout-flex"
+            style="padding-top: var(--wp--preset--spacing--20)"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-bottom-color: var(--wp--preset--color--border-color);
+                border-bottom-width: 2px;
+                padding-right: var(--wp--preset--spacing--30);
+                padding-bottom: var(--wp--preset--spacing--60);
+              "
+            >
+              <h3
+                class="wp-block-heading"
+                style="padding-bottom: 0; font-size: 24px"
+              >
+                How do I enable Full Site Editing in WordPress?
+              </h3>
+
+              <p style="font-size: 18px; line-height: 1.5">
+                To enable Full Site Editing in WordPress, you need to ensure
+                that you are using a compatible WordPress theme that supports
+                Full Site Editing. You will also need to install the latest
+                version of WordPress and enable the Gutenberg editor.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-19 wp-block-columns-is-layout-flex"
+            style="padding-top: var(--wp--preset--spacing--20)"
+          >
+            <div
+              class="wp-block-column is-layout-flow wp-block-column-is-layout-flow"
+              style="
+                border-bottom-style: none;
+                border-bottom-width: 0px;
+                padding-right: var(--wp--preset--spacing--30);
+                padding-bottom: var(--wp--preset--spacing--60);
+              "
+            >
+              <h3
+                class="wp-block-heading"
+                style="padding-bottom: 0; font-size: 24px"
+              >
+                What are some popular WordPress themes that support Full Site
+                Editing?
+              </h3>
+
+              <p style="font-size: 18px; line-height: 1.5">
+                Some popular WordPress themes that support Full Site Editing
+                include the FotaWP Theme, ReviveNews Theme, and the Hello Agency
+                Theme. These themes have built-in support for Full Site Editing,
+                allowing users to create custom designs without needing to know
+                how to code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="wp-block-template-part">
+        <div
+          class="wp-block-group has-background-color has-second-primary-gradient-gradient-background has-text-color has-background is-layout-constrained wp-container-core-group-is-layout-60 wp-block-group-is-layout-constrained"
+          style="
+            padding-top: var(--wp--preset--spacing--80);
+            padding-right: var(--wp--preset--spacing--40);
+            padding-bottom: var(--wp--preset--spacing--50);
+            padding-left: var(--wp--preset--spacing--40);
+          "
+        >
+          <!-- <div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-20 wp-block-columns-is-layout-flex" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+      <h3 class="wp-block-heading has-foregound-alt-color has-text-color has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">FOTAWP</h3>
+      
+
+      
+      <p class="has-foregound-alt-color has-text-color" style="margin-top:35px;margin-right:0;margin-bottom:var(--wp--preset--spacing--30);margin-left:0">Check out our new&nbsp;font generator and level up your social bios. Need more? Head over to Glyphy for all the&nbsp;fancy fonts&nbsp;and&nbsp;cool symbols&nbsp;you could ever imagine.</p>
+      
+
+      
+      <ul class="wp-block-social-links has-icon-background-color is-style-default is-nowrap is-layout-flex wp-container-core-social-links-is-layout-1 wp-block-social-links-is-layout-flex"><li style="background-color: #ffffff00; " class="wp-social-link wp-social-link-facebook has-transparent-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://#" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12 2C6.5 2 2 6.5 2 12c0 5 3.7 9.1 8.4 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.3v7C18.3 21.1 22 17 22 12c0-5.5-4.5-10-10-10z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Facebook</span></a></li>
+
+        <li style="background-color: #ffffff00; " class="wp-social-link wp-social-link-twitter has-transparent-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://#" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Twitter</span></a></li>
+
+        <li style="background-color: #ffffff00; " class="wp-social-link wp-social-link-pinterest has-transparent-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://#" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12.289,2C6.617,2,3.606,5.648,3.606,9.622c0,1.846,1.025,4.146,2.666,4.878c0.25,0.111,0.381,0.063,0.439-0.169 c0.044-0.175,0.267-1.029,0.365-1.428c0.032-0.128,0.017-0.237-0.091-0.362C6.445,11.911,6.01,10.75,6.01,9.668 c0-2.777,2.194-5.464,5.933-5.464c3.23,0,5.49,2.108,5.49,5.122c0,3.407-1.794,5.768-4.13,5.768c-1.291,0-2.257-1.021-1.948-2.277 c0.372-1.495,1.089-3.112,1.089-4.191c0-0.967-0.542-1.775-1.663-1.775c-1.319,0-2.379,1.309-2.379,3.059 c0,1.115,0.394,1.869,0.394,1.869s-1.302,5.279-1.54,6.261c-0.405,1.666,0.053,4.368,0.094,4.604 c0.021,0.126,0.167,0.169,0.25,0.063c0.129-0.165,1.699-2.419,2.142-4.051c0.158-0.59,0.817-2.995,0.817-2.995 c0.43,0.784,1.681,1.446,3.013,1.446c3.963,0,6.822-3.494,6.822-7.833C20.394,5.112,16.849,2,12.289,2"></path></svg><span class="wp-block-social-link-label screen-reader-text">Pinterest</span></a></li>
+
+        <li style="background-color: #ffffff00; " class="wp-social-link wp-social-link-spotify has-transparent-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://#" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,2C6.477,2,2,6.477,2,12c0,5.523,4.477,10,10,10c5.523,0,10-4.477,10-10C22,6.477,17.523,2,12,2 M16.586,16.424 c-0.18,0.295-0.563,0.387-0.857,0.207c-2.348-1.435-5.304-1.76-8.785-0.964c-0.335,0.077-0.67-0.133-0.746-0.469 c-0.077-0.335,0.132-0.67,0.469-0.746c3.809-0.871,7.077-0.496,9.713,1.115C16.673,15.746,16.766,16.13,16.586,16.424 M17.81,13.7 c-0.226,0.367-0.706,0.482-1.072,0.257c-2.687-1.652-6.785-2.131-9.965-1.166C6.36,12.917,5.925,12.684,5.8,12.273 C5.675,11.86,5.908,11.425,6.32,11.3c3.632-1.102,8.147-0.568,11.234,1.328C17.92,12.854,18.035,13.335,17.81,13.7 M17.915,10.865 c-3.223-1.914-8.54-2.09-11.618-1.156C5.804,9.859,5.281,9.58,5.131,9.086C4.982,8.591,5.26,8.069,5.755,7.919 c3.532-1.072,9.404-0.865,13.115,1.338c0.445,0.264,0.59,0.838,0.327,1.282C18.933,10.983,18.359,11.129,17.915,10.865"></path></svg><span class="wp-block-social-link-label screen-reader-text">Spotify</span></a></li>
+
+        <li style="background-color: #ffffff00; " class="wp-social-link wp-social-link-instagram has-transparent-background-color wp-block-social-link"><a rel="noopener nofollow" target="_blank" href="https://#" class="wp-block-social-link-anchor"><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg><span class="wp-block-social-link-label screen-reader-text">Instagram</span></a></li>
+      </ul>
+      
+    </div>
+    
+
+    
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+      <h3 class="wp-block-heading has-foregound-alt-color has-text-color has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">Products</h3>
+      
+
+      
+      <ul class="is-style-hide-bullet-list-link-hover-style-secondary has-link-color wp-elements-a39fcd873ce0987fbdc43b985a1eeaf8" style="margin-top:30px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:2">
+        <li><a href="#">Cozy Addons for Elementor</a></li>
+        
+
+        
+        <li><a href="#">Cozy Essential Addons</a></li>
+        
+
+        
+        <li><a href="#">PatternVerse</a></li>
+        
+
+        
+        <li><a href="#">FotaWP</a></li>
+        
+
+        
+        <li><a href="#">BookingAddons</a></li>
+        
+
+        
+        <li><a href="#">BlockBerg</a></li>
+        
+      </ul>
+      
+    </div>
+    
+
+    
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+      <h3 class="wp-block-heading has-foregound-alt-color has-text-color has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">Quick Menu</h3>
+      
+
+      
+      <ul class="is-style-hide-bullet-list-link-hover-style-secondary has-link-color wp-elements-3368401354b792a17f085ecd7ac4af8e" style="margin-top:30px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:2">
+        <li><a href="#">About us</a></li>
+        
+
+        
+        <li><a href="#">Blog</a></li>
+        
+
+        
+        <li><a href="#">Our Team</a></li>
+        
+
+        
+        <li><a href="#">Career</a></li>
+        
+
+        
+        <li><a href="#">Conatct Us</a></li>
+        
+      </ul>
+      
+    </div>
+    
+
+    
+    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+      <h3 class="wp-block-heading has-foregound-alt-color has-text-color has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--40);font-style:normal;font-weight:600">Legal</h3>
+      
+
+      
+      <ul class="is-style-hide-bullet-list-link-hover-style-secondary has-link-color wp-elements-699512f5c6b341be24823357c74c97d0" style="margin-top:30px;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:2">
+        <li><a href="#">Teram &amp; Conditions</a></li>        
+
+        <li><a href="#">Policy</a></li>
+        
+      </ul>
+      
+    </div>
+    
+  </div> -->
+
+          <div
+            class="wp-block-group is-content-justification-space-between is-nowrap is-layout-flex wp-container-core-group-is-layout-59 wp-block-group-is-layout-flex"
+          >
+            <p
+              class="has-foregound-alt-color has-text-color has-link-color wp-elements-8a7dc45823b4a82efc973622915b0aab"
+            >
+              Proudly powered by Grade++&nbsp;|&nbsp;&copy; 2016 E.c !
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex"
+        >
+          <div
+            class="wp-block-button fotawp-scrollto-top is-style-button-hover-white-bgcolor"
+          >
+            <a
+              class="wp-block-button__link has-foregound-alt-color has-tertiary-background-color has-text-color has-background wp-element-button"
+              style="border-radius: 50%"
+              >Scroll to Top</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 0 0"
+      width="0"
+      height="0"
+      focusable="false"
+      role="none"
+      style="
+        visibility: hidden;
+        position: absolute;
+        left: -9999px;
+        overflow: hidden;
+      "
+    >
+      <defs>
+        <filter id="wp-duotone-primary">
+          <feColorMatrix
+            color-interpolation-filters="sRGB"
+            type="matrix"
+            values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 "
+          />
+          <feComponentTransfer color-interpolation-filters="sRGB">
+            <feFuncR
+              type="table"
+              tableValues="0.33333333333333 0.9843137254902"
+            />
+            <feFuncG
+              type="table"
+              tableValues="0.17254901960784 0.97647058823529"
+            />
+            <feFuncB
+              type="table"
+              tableValues="0.56078431372549 0.99607843137255"
+            />
+            <feFuncA type="table" tableValues="1 1" />
+          </feComponentTransfer>
+          <feComposite in2="SourceGraphic" operator="in" />
+        </filter>
+      </defs>
+    </svg>
+    <script id="wp-block-template-skip-link-js-after">
+      (function () {
+        var skipLinkTarget = document.querySelector("main"),
+          sibling,
+          skipLinkTargetID,
+          skipLink;
+
+        // Early exit if a skip-link target can't be located.
+        if (!skipLinkTarget) {
+          return;
+        }
+
+        /*
+         * Get the site wrapper.
+         * The skip-link will be injected in the beginning of it.
+         */
+        sibling = document.querySelector(".wp-site-blocks");
+
+        // Early exit if the root element was not found.
+        if (!sibling) {
+          return;
+        }
+
+        // Get the skip-link target's ID, and generate one if it doesn't exist.
+        skipLinkTargetID = skipLinkTarget.id;
+        if (!skipLinkTargetID) {
+          skipLinkTargetID = "wp--skip-link--target";
+          skipLinkTarget.id = skipLinkTargetID;
+        }
+
+        // Create the skip link.
+        skipLink = document.createElement("a");
+        skipLink.classList.add("skip-link", "screen-reader-text");
+        skipLink.href = "#" + skipLinkTargetID;
+        skipLink.innerHTML = "Skip to content";
+
+        // Inject the skip link.
+        sibling.parentElement.insertBefore(skipLink, sibling);
+      })();
+    </script>
+    <script
+      src="https://wp-themes.com/wp-content/themes/fotawp/assets/js/fotawp-scripts.js?ver=1.3.6"
+      id="fotawp-scripts-js"
+    ></script>
+    <script>
+      (function () {
+        var links = document.getElementsByTagName("a");
+        for (var i = 0; i < links.length; i++) {
+          var link = links[i],
+            url,
+            hostname;
+
+          try {
+            url = new URL(link.href, document.location.href);
+            hostname = url.hostname;
+            if ("mailto:" === url.protocol) {
+              hostname = "mailto"; // not whitelisted hostname to fall through.
+            }
+          } catch (e) {
+            // Internet Explorer and invalid links, fall back to regex.
+            if (
+              (hostname = link.href.match(
+                /^\s*(?:(?:https?:)?\/\/)([^/]+)(\/|$)/
+              ))
+            ) {
+              hostname = hostname[1];
+            } else if ("mailto" === link.href.substr(0, 6)) {
+              hostname = "mailto"; // not whitelisted hostname to fall through.
+            }
+          }
+
+          // Self links are allowed.
+          if (!hostname || "wp-themes.com" === hostname) {
+            continue;
+          }
+
+          // Links to WordPress.org should be allowed, but open in a new window.
+          if (
+            "wordpress.org" === hostname ||
+            ".wordpress.org" === hostname.substr(-14)
+          ) {
+            link.target = "_blank";
+            continue;
+          }
+
+          // The link should not be followed, but the href is kept to allow for a[href^=] based styling.
+          link.addEventListener("click", function (e) {
+            e.preventDefault();
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>
